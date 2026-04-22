@@ -16,7 +16,7 @@ export default async function HomePage({ params }: PageProps) {
 
   const featuredVideo = {
     id: 'NZhM8l8B8sY',
-    title: 'DRAGON QUEST Smash/Grow | Opening Trailer',
+    title: 'Dragon Quest Smash Grow Opening Trailer',
   }
 
   const externalLinks = {
