@@ -965,120 +965,236 @@
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Dragon Quest Smash Grow Gems Farming",
-      "displayType": "accordion",
-      "intro": "Use repeatable gem routes so Dragon Quest Smash Grow pull planning stays stable across daily and weekly cycles.",
-      "faqs": [
+      "eyebrow": "Dragon Quest Smash Grow Resource Route",
+      "title": "Dragon Quest Smash Grow Gems Farming: Best Ways to Farm Gems Early and Long Term",
+      "subtitle": "Your fastest early gems come from uncleared Adventure stages, then the route shifts into daily, rank, and collection rewards. This module keeps the burst sources and the passive sources in one place.",
+      "displayType": "stepCards",
+      "intro": "If you want more pulls without paying, start with one-time clears and then lock into the repeatable routine. The best pattern is simple: push new stages for a fast gem burst, then stack missions, Adventure Rank rewards, codex progress, and panel missions for long-term income.",
+      "items": [
         {
-          "question": "What is the fastest Dragon Quest Smash Grow daily gem routine?",
-          "answer": "Complete daily missions, claim login rewards, clear active event tasks, and collect present-box payouts at each reset."
+          "step": 1,
+          "title": "Push uncleared Adventure stages first",
+          "description": "Uncleared Adventure stages are the fastest early gem source. First-clear rewards plus stage mission rewards usually add up to about 100 to 200 gems per stage.",
+          "highlights": [
+            "Best short-term burst",
+            "About 100-200 gems per new stage"
+          ]
         },
         {
-          "question": "How should Dragon Quest Smash Grow weekly gems be planned?",
-          "answer": "Schedule weekly objectives early in the cycle so leftover days can be used for event overflow and bonus stages."
+          "step": 2,
+          "title": "Keep the login bonus streak going",
+          "description": "Login bonuses are a steady passive source of gems. During active campaigns, event login rewards stack on top of the normal daily login flow.",
+          "highlights": [
+            "Passive daily income",
+            "Check event bonus pages too"
+          ]
         },
         {
-          "question": "Which Dragon Quest Smash Grow events usually pay the most gems?",
-          "answer": "Launch campaigns, limited challenge ladders, and milestone event boards usually produce the largest gem spikes."
+          "step": 3,
+          "title": "Finish daily and weekly missions",
+          "description": "Missions are the core long-term gem route once your easy story clears slow down. Daily missions give 30 gems per day, and the weekly track gives 300 gems once you reach 100 points.",
+          "highlights": [
+            "30 gems per day",
+            "300 gems per weekly 100-point target"
+          ]
         },
         {
-          "question": "Should Dragon Quest Smash Grow players spend gems immediately?",
-          "answer": "Prioritize planned banner windows and keep an emergency reserve to avoid breaking long-term pull strategy."
+          "step": 4,
+          "title": "Raise Adventure Rank while you progress",
+          "description": "Adventure Rank rewards hand out gems again and again as you climb. Many reward milestones pay 500 gems, and the full reward track up to Rank 50 totals 10,000 gems.",
+          "highlights": [
+            "Repeated 500-gem checkpoints",
+            "10,000 total gems by Rank 50"
+          ]
         },
         {
-          "question": "Can Dragon Quest Smash Grow co-op play help gem income?",
-          "answer": "Yes, co-op objective chains and event participation milestones can add steady gem income when rotated daily."
+          "step": 5,
+          "title": "Fill the Memory and Monster Codex",
+          "description": "At Adventure Rank 2, the Memory Codex and Monster Codex unlock. Filling codex points adds another gem source on top of the stat bonuses you get from collection progress.",
+          "highlights": [
+            "Unlocks at Adventure Rank 2",
+            "Pairs gems with account growth"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Clear Rookie and Panel Missions whenever you stall",
+          "description": "The Rookie and Panel mission tracks pay out gems, tickets, and upgrade materials, and the mission pages do not expire. They are a reliable side route whenever your main story push slows down.",
+          "highlights": [
+            "No time limit",
+            "Good backup route between story pushes"
+          ]
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Dragon Quest Smash Grow Daily Checklist",
-      "displayType": "settingCards",
-      "intro": "Use this Dragon Quest Smash Grow daily checklist to convert short sessions into steady account growth.",
-      "settings": [
+      "eyebrow": "Dragon Quest Smash Grow Daily Routine",
+      "title": "Dragon Quest Smash Grow Daily Checklist: Fast Daily Reset Route",
+      "subtitle": "This is the compact version of what to do every day so stamina, free pulls, and exchange freebies never go to waste. It is built for a quick login-to-logoff loop.",
+      "displayType": "routineCards",
+      "intro": "When you only have a few minutes, do the checklist in this order. It covers every daily action that turns into gems, tickets, stamina value, or passive materials without asking you to overthink your route.",
+      "items": [
         {
-          "name": "Claim login and inbox rewards",
-          "type": "Reset Start",
-          "description": "Collect all day-start rewards first so ticket, gem, and stamina planning is accurate."
+          "icon": "Check",
+          "title": "Claim all login bonuses",
+          "tag": "Must do",
+          "description": "Take the regular login reward on your first login of the day. During events, claim the event login reward too so you do not miss stacked freebies."
         },
         {
-          "name": "Finish daily mission board",
-          "type": "Core Loop",
-          "description": "Daily missions provide consistent materials and gem income that compound over time."
+          "icon": "Clock",
+          "title": "Finish daily missions",
+          "tag": "Quick rewards",
+          "description": "Daily missions refresh every day and pay gold, weapon upgrade stones, and gems. They are one of the easiest checks to finish in a short session."
         },
         {
-          "name": "Spend stamina on targeted stages",
-          "type": "Progression",
-          "description": "Route stamina into weapon stones, class growth, or event nodes tied to your current bottleneck."
+          "icon": "Home",
+          "title": "Use your stage skips",
+          "tag": "Fast farm",
+          "description": "Any stage you have already cleared can be skipped from the sortie screen. Use the skip function on the material or medal stage you currently need most."
         },
         {
-          "name": "Run at least one co-op session",
-          "type": "Bonus Value",
-          "description": "Co-op participation helps complete event chains and provides extra progression currency."
+          "icon": "Package",
+          "title": "Spend natural stamina before it caps",
+          "tag": "No waste",
+          "description": "Stamina refills over time, so do not let it sit full. Story, Growth Quests, and other farming stages all work as good sinks."
         },
         {
-          "name": "Review gacha and code updates",
-          "type": "Planning",
-          "description": "Check new codes and banner notices before ending the session to prepare next-day actions."
+          "icon": "Eye",
+          "title": "Do the free daily pull",
+          "tag": "Free roll",
+          "description": "You can do one free gacha pull per day by watching an ad. It is a small habit, but it slowly grows your weapon and gear pool for free."
+        },
+        {
+          "icon": "Settings",
+          "title": "Clear the free shop items",
+          "tag": "5:00 reset",
+          "description": "The free daily exchange includes up to 2 Multiplayer Passes and 1 Shrine Key from Gold Exchange, plus 1 Metal Ticket from Item Purchase after an ad. The free stock refreshes at 5:00."
+        },
+        {
+          "icon": "Users",
+          "title": "Dispatch the idle expedition squad",
+          "tag": "Passive loot",
+          "description": "After Chapter 1 Epilogue, the idle expedition system unlocks. Keep it running so real-time item collection never stops while you are offline."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Dragon Quest Smash Grow Leveling Guide",
-      "displayType": "timeline",
-      "intro": "Leveling speed depends on smart checkpoint timing, EXP routing, and class panel investment order.",
-      "entries": [
+      "eyebrow": "Dragon Quest Smash Grow Power Growth",
+      "title": "Dragon Quest Smash Grow Leveling Guide: Level Fast Without Wasting Tickets",
+      "subtitle": "Fast leveling in Smash/Grow is built around Metal Quests, Adventure Rank unlocks, and smart party setup. The goal is not only to gain levels, but to unlock the systems that keep your power moving.",
+      "displayType": "stepCards",
+      "intro": "The clean route is to unlock the right content first, spend Metal Tickets well, and only fall back to story grinding when your ticket stock runs out. Levels are strong on their own, but the real payoff is how they connect to Adventure Rank, job progression, and Memory cost.",
+      "items": [
         {
-          "title": "Early Leveling Window (Lv.1-30)",
-          "type": "Starter Path",
-          "description": "Push story unlocks, then run focused training loops to get one core class and multiple weapons to Lv.30."
+          "step": 1,
+          "icon": "TrendingUp",
+          "title": "Rush Adventure Rank 4 for Growth Quests",
+          "description": "Adventure Rank 4 unlocks Growth Quests, which include high-value growth content such as the Metal Dungeon and Gold Quest. That is the first major breakpoint for serious leveling.",
+          "highlights": [
+            "Adventure Rank 4 unlock",
+            "Growth Quests open here"
+          ]
         },
         {
-          "title": "Mid Leveling Window (Lv.30-50)",
-          "type": "Growth Path",
-          "description": "Shift into rank-gated systems, panel upgrades, and event farming to maintain efficient power scaling."
+          "step": 2,
+          "icon": "Gamepad2",
+          "title": "Spend Metal Tickets on Metal Quests",
+          "description": "Metal Quests are the best direct EXP route because each run gives a large amount of experience at once. They require special tickets, so treat them as your main burst-leveling resource.",
+          "highlights": [
+            "Best direct EXP route",
+            "Consumes Metal Tickets"
+          ]
         },
         {
-          "title": "Metal Route Optimization",
-          "type": "EXP Burst",
-          "description": "Use metal-focused weapons and tickets when your build can clear quickly for higher EXP return per run."
+          "step": 3,
+          "icon": "BookOpen",
+          "title": "Claim free and rank-based ticket sources",
+          "description": "You can get 1 Metal Ticket per day from the Item Purchase exchange after watching an ad, and more Metal Tickets or Metal Brothers Tickets come from Adventure Rank rewards.",
+          "highlights": [
+            "1 free Metal Ticket daily",
+            "More tickets from rank rewards"
+          ]
         },
         {
-          "title": "Class Panel Syncing",
-          "type": "Power Conversion",
-          "description": "Prioritize party-wide panel nodes before niche branches so each EXP session increases total team value."
+          "step": 4,
+          "icon": "Star",
+          "title": "Use metal-slayer weapons if you have them",
+          "description": "Metal Wing and Metal Slime Sword are excellent for Metal farming because their specials deal 270% neutral physical damage with +20 against Metal enemies. If you own one, your leveling speed jumps hard.",
+          "highlights": [
+            "Metal Wing",
+            "Metal Slime Sword"
+          ]
         },
         {
-          "title": "Preparation Before Boss Chapters",
-          "type": "Checkpoint",
-          "description": "Reserve upgrades for chapter spike points to avoid repeated wipe cycles and resource waste."
+          "step": 5,
+          "icon": "ArrowRight",
+          "title": "Push story when you run out of tickets",
+          "description": "If your Metal Ticket stock is empty, keep moving through story stages instead of stalling. Story progress helps character growth while also pushing Adventure Rank, unlocks, and first-clear rewards.",
+          "highlights": [
+            "Good fallback route",
+            "Levels and Adventure Rank together"
+          ]
+        },
+        {
+          "step": 6,
+          "icon": "Shield",
+          "title": "Level with the right party rules in mind",
+          "description": "Levels are tracked by vocation, so changing vocation sends that job back to Level 1. When power-leveling, bring at least one high-level ally so the run stays stable while your lower-level job catches up.",
+          "highlights": [
+            "Levels are vocation-specific",
+            "Bring at least one high-level ally"
+          ]
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Dragon Quest Smash Grow Co-Op Guide",
-      "displayType": "steps",
-      "intro": "Dragon Quest Smash Grow co-op runs are strongest when teams lock role coverage, communication pace, and reward goals before queueing.",
-      "steps": [
+      "eyebrow": "Dragon Quest Smash Grow Multiplayer",
+      "title": "Dragon Quest Smash Grow Co-Op Guide: How Co-Op Works Right Now",
+      "subtitle": "Smash/Grow co-op is built around four-player runs, room numbers, and limited entry items. This module focuses on how to join, how to host, and what restrictions matter before you queue.",
+      "displayType": "coOpCards",
+      "intro": "The important thing to know is that co-op is easy to enter once you understand the room system, but it is not built around a full social layer. Treat it like a fast mission mode with shared room codes, limited entry items, and sticker-based communication.",
+      "items": [
         {
-          "title": "Set role coverage before entering",
-          "description": "Assign one carry, one control slot, and one sustain slot so random mechanics do not break team tempo."
+          "icon": "Users",
+          "title": "Co-op is a 4-player mode",
+          "tag": "Basics",
+          "description": "Officially, Co-Op Quests let you team up with up to 3 other players. That means one host plus three additional players in a full room."
         },
         {
-          "title": "Match weapon range to encounter style",
-          "description": "Use at least one safe-range weapon for wave control while melee burst slots handle boss windows."
+          "icon": "MessageCircle",
+          "title": "You can join two ways",
+          "tag": "Match flow",
+          "description": "The game supports random matchmaking and room-number matching. If you already have a code, the room-number option is the cleanest way to jump into the correct run."
         },
         {
-          "title": "Sync ult and blessing timing",
-          "description": "Coordinate burst windows for boss phases so all players convert cooldowns into single clear spikes."
+          "icon": "Home",
+          "title": "Private rooms use a room number",
+          "tag": "Hosting",
+          "description": "Creating a room generates a private room number. This is the best setup for friends, Discord groups, or recruitment posts because everyone can enter the exact same room."
         },
         {
-          "title": "Use quick communication rules",
-          "description": "Call out revive needs, phase swaps, and objective targets in short consistent phrases."
+          "icon": "ClipboardCheck",
+          "title": "Each entry spends a Multiplayer Pass",
+          "tag": "Entry cost",
+          "description": "Co-op runs consume an item called a Multiplayer Pass when you enter. Free passes can be exchanged from Gold Exchange up to 2 times per day, and free-pass storage caps at 20."
         },
         {
-          "title": "Prioritize repeatable reward routes",
-          "description": "Run co-op stages with stable clear times and strong drop tables to maximize long-session value."
+          "icon": "AlertTriangle",
+          "title": "There is no friend system",
+          "tag": "Limit",
+          "description": "Smash/Grow currently has no friend list, so there is no direct invite flow. In practice, co-op is organized through random matching or by sharing a room number."
+        },
+        {
+          "icon": "Keyboard",
+          "title": "Communication is sticker-only",
+          "tag": "Comms",
+          "description": "In-game co-op communication is limited to stamps. It works for quick signals, but it is not built for detailed calls or role assignments."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Use co-op for repeat medal farming once your team is ready",
+          "tag": "Best use",
+          "description": "Multiplayer Quests can drop current medal rewards such as Release Commemoration Medals, so co-op is a good place to spend passes once your story team is stable enough to clear runs cleanly."
         }
       ]
     }
