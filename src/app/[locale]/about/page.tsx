@@ -9,12 +9,13 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragonquestsmashgrow.wiki'
   const path = '/about'
 
   return {
-    title: 'About Lucid Blocks Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Lucid Blocks Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Dragon Quest Smash Grow Wiki',
+    description:
+      'Learn about Dragon Quest Smash Grow Wiki, our editorial goals, coverage scope, and how to contact the team.',
     robots: {
       index: false,
       follow: true,
@@ -28,25 +29,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     openGraph: {
       type: 'website',
-      locale: locale,
+      locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
+      siteName: 'Dragon Quest Smash Grow Wiki',
+      title: 'About Dragon Quest Smash Grow Wiki',
+      description: 'Who runs this fan-made Dragon Quest Smash Grow guide hub and what we cover.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
+          alt: 'Dragon Quest Smash Grow Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      title: 'About Dragon Quest Smash Grow Wiki',
+      description: 'Who runs this fan-made Dragon Quest Smash Grow guide hub and what we cover.',
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -55,259 +56,66 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section */}
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Lucid Blocks Wiki
-          </h1>
-          <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for Lucid Blocks
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About Dragon Quest Smash Grow Wiki</h1>
+          <p className="text-slate-300 text-lg mb-2">Unofficial fan-made guides, references, and launch tracking</p>
         </div>
       </section>
 
-      {/* Mission Section */}
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to Lucid Blocks Wiki</h2>
+            <h2>What This Site Is</h2>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              Dragon Quest Smash Grow Wiki is a fan-run information hub focused on helping players find accurate,
+              up-to-date references for Dragon Quest Smash/Grow.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
-              Lucid Blocks Wiki is here to support you every step of the way.
+              We aggregate starter guidance, reroll notes, update tracking, and direct links to official resources.
             </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Mission & Vision */}
-      <section className="py-12 px-4 bg-slate-900/30">
-        <div className="container mx-auto max-w-4xl">
-          <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Our Mission</h2>
-            <p>
-              Our mission is simple: <strong>to empower Lucid Blocks players with accurate, up-to-date information
-              and powerful tools</strong> that help them succeed in the game. We strive to:
-            </p>
+            <h2>What We Cover</h2>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
-              <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
-              <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
+              <li>Beginner flow and launch-day setup.</li>
+              <li>Reroll and early progression references.</li>
+              <li>Blessings, vocations, and co-op basics.</li>
+              <li>Official trailer and update tracking.</li>
+              <li>Platform links for iOS and Android.</li>
             </ul>
 
-            <h2>Our Vision</h2>
-            <p>
-              We envision Lucid Blocks Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
-              to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* What We Offer */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">What We Offer</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {/* Feature Card 1 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
-              <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
-              </p>
-            </div>
-
-            {/* Feature Card 2 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
-              <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
-              </p>
-            </div>
-
-            {/* Feature Card 3 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
-              <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
-              </p>
-            </div>
-
-            {/* Feature Card 4 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
-              <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
-              </p>
-            </div>
-
-            {/* Feature Card 5 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
-              <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
-              </p>
-            </div>
-
-            {/* Feature Card 6 */}
-            <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
-              <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Community Section */}
-      <section className="py-12 px-4 bg-slate-900/30">
-        <div className="container mx-auto max-w-4xl">
-          <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Community-Driven</h2>
-            <p>
-              Lucid Blocks Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
-              feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
-            </p>
+            <h2>Editorial Principles</h2>
             <ul>
-              <li><strong>Player feedback:</strong> Your suggestions help us improve and expand our resources</li>
-              <li><strong>Community discoveries:</strong> New strategies, hidden mechanics, and pro tips shared by players</li>
-              <li><strong>Game updates:</strong> We monitor official updates and adjust our content accordingly</li>
-              <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
+              <li>Prioritize official announcements and verifiable sources.</li>
+              <li>Mark speculation clearly and avoid rumor-only claims.</li>
+              <li>Update pages quickly after major patches or live events.</li>
+              <li>Keep guides practical and easy to scan.</li>
             </ul>
-            <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
-              or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Team Section */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="prose prose-invert prose-slate max-w-none">
-            <h2>About the Team</h2>
+            <h2>Community and Feedback</h2>
             <p>
-              Lucid Blocks Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
-              mechanics, and staying updated with the latest discoveries.
+              If you spot outdated information or missing details, send feedback and source links so we can review and
+              update quickly.
             </p>
-            <p>
-              Our team combines expertise in:
-            </p>
-            <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of Lucid Blocks mechanics and strategies</li>
-              <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
-              <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
-              <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
-            </ul>
-            <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Disclaimer */}
-      <section className="py-12 px-4 bg-slate-900/30">
-        <div className="container mx-auto max-w-4xl">
-          <div className="prose prose-invert prose-slate max-w-none">
+            <h2>Contact</h2>
+            <p>
+              General inquiries: <a href="mailto:contact@dragonquestsmashgrow.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">contact@dragonquestsmashgrow.wiki</a>
+            </p>
+            <p>
+              Content corrections: <a href="mailto:editor@dragonquestsmashgrow.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">editor@dragonquestsmashgrow.wiki</a>
+            </p>
+
             <h2>Important Disclaimer</h2>
-            <p className="text-yellow-400/90">
-              <strong>Lucid Blocks Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Lucid Blocks or any official entities.
-            </p>
             <p>
-              All game content, trademarks, characters, and assets are the property of their respective owners.
-              We use game-related content under fair use principles for informational and educational purposes only.
-            </p>
-            <p>
-              Lucid Blocks Wiki is a non-profit, community resource created by fans, for fans.
+              Dragon Quest Smash Grow Wiki is an unofficial fan website and is not affiliated with, endorsed by,
+              or associated with SQUARE ENIX, KLab, Apple, Google, or other official entities.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Get in Touch</h2>
-            <p>
-              We'd love to hear from you! Whether you have questions, suggestions, found a bug, or just want to say hi:
-            </p>
-            <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
-              <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
-                <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@lucidblocks.wiki
-                </a>
-              </div>
-              <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
-                <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@lucidblocks.wiki
-                </a>
-              </div>
-              <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
-                <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@lucidblocks.wiki
-                </a>
-              </div>
-              <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
-                <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@lucidblocks.wiki
-                </a>
-              </div>
-            </div>
-            <p className="text-slate-400 text-sm">
-              <strong>Response Time:</strong> We aim to respond to all inquiries within 2-3 business days.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-12 px-4 bg-gradient-to-r from-purple-900/30 to-blue-900/30 border-y border-border">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
-          <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and Lucid Blocks news.
-            Bookmark this site and check back regularly for new content!
-          </p>
-          <Link
-            href="/"
-            className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-[hsl(var(--nav-theme-light))] text-white font-semibold hover:opacity-90 transition"
-          >
-            Explore Resources
-          </Link>
-        </div>
-      </section>
-
-      {/* Back to Home */}
-      <section className="py-8 px-4">
+      <section className="py-8 px-4 border-t border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <Link href="/" className="text-[hsl(var(--nav-theme-light))] hover:underline">
             ← Back to Home

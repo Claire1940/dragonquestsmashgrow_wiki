@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Mobile Roguelite RPG",
+    "title": "Dragon Quest Smash Grow",
+    "description": "Fast-paced Dragon Quest Smash Grow hub with reroll routes, weapon picks, Blessing combos, vocation guides, co-op quest help, and launch updates.",
+    "getFreeCodesCTA": "Download Dragon Quest Smash/Grow on App Store",
+    "playOnSteamCTA": "Get Dragon Quest Smash/Grow on Google Play",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4",
+        "label": "Supported Languages"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "Co-op Players"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "1.4 GB",
+        "label": "App Size"
       }
     }
   },
@@ -784,27 +784,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play Dragon Quest Smash/Grow?",
+    "description": "Use official links for downloads, updates, and community support.",
+    "joinCommunity": "Join Dragon Quest Smash/Grow Discord",
+    "joinGame": "Visit Dragon Quest Smash/Grow Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Dragon Quest Smash Grow Wiki",
+    "description": "Your fan-made resource hub for Dragon Quest Smash Grow guides, reroll tips, blessings, vocations, and launch updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Official Discord",
+    "twitter": "Official X (EN)",
+    "reddit": "Reddit Community",
+    "youtube": "Official YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Dragon Quest Smash Grow Wiki. Unofficial fan-made site.",
+    "disclaimer": "Not affiliated with SQUARE ENIX, KLab, Apple, or Google."
   },
   "pages": {
     "guides": {

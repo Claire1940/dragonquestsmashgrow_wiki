@@ -214,7 +214,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dragonquestsmashgrow.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -254,12 +254,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Dragon Quest Smash Grow Wiki`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Dragon Quest Smash Grow Wiki`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         robots: {
           index: true,
@@ -288,15 +288,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const ogImage = metadata.image
+        ? [metadata.image.startsWith('http') ? metadata.image : `${siteUrl}${metadata.image.startsWith('/') ? '' : '/'}${metadata.image}`]
+        : [`${siteUrl}/images/hero.webp`]
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - Dragon Quest Smash Grow Wiki`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: ogImage,
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
         robots: {
@@ -323,15 +326,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const ogImage = metadata.image
+            ? [metadata.image.startsWith('http') ? metadata.image : `${siteUrl}${metadata.image.startsWith('/') ? '' : '/'}${metadata.image}`]
+            : [`${siteUrl}/images/hero.webp`]
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - Dragon Quest Smash Grow Wiki`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: ogImage,
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
             },
             robots: {
