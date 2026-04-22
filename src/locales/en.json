@@ -10,7 +10,15 @@
       "twitterDescription": "Dragon Quest Smash Grow Wiki covers reroll, weapons, classes, gacha strategy, and co-op progression in one launch-ready hub."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "reroll": "Reroll",
+    "videos": "Videos",
+    "weapons": "Weapons",
+    "guide": "Guide",
+    "install": "Install",
+    "beta": "Beta"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -540,7 +548,7 @@
           "title": "How to Redeem",
           "status": "guide",
           "value": "Redemption menu not published yet",
-          "description": "The tracked code pages have not posted a public in-game redemption flow yet, so this slot is best used as the live placeholder for the first confirmed redeem path."
+          "description": "The tracked code pages have not posted a public in-game redemption flow yet, so this slot works as the live tracker for the first confirmed redeem path."
         },
         {
           "title": "Official X",
@@ -1254,125 +1262,145 @@
     "disclaimer": "Not affiliated with SQUARE ENIX, KLab, Apple, or Google."
   },
   "pages": {
-    "guides": {
-      "title": "Dragon Quest Smash Grow Guides",
-      "description": "Step-by-step Dragon Quest Smash Grow guides from reroll setup to advanced co-op routing.",
-      "metaTitle": "Dragon Quest Smash Grow Guides - Reroll, Builds, and Progression",
-      "metaDescription": "Master Dragon Quest Smash Grow with beginner plans, reroll targets, team builds, and chapter progression guides.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Guides break down Dragon Quest Smash Grow progression by phase so you can plan reroll, upgrades, and team routes clearly.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Dragon Quest Smash Grow Release",
+      "description": "Dragon Quest Smash Grow release coverage with launch dates, region timing, maintenance notices, and update timelines.",
+      "metaTitle": "Dragon Quest Smash Grow Release - Launch Dates, Time Zones, and Patch News",
+      "metaDescription": "Track Dragon Quest Smash Grow release schedules, global launch timing, maintenance windows, and official update announcements.",
+      "categoryLabel": "RELEASE NEWS",
+      "whatIs": "What is Release Coverage?",
+      "whatIsDescription": "Release coverage tracks official launch timing, maintenance windows, event start dates, and version rollout details for Dragon Quest Smash Grow.",
+      "why": "Why follow release updates?",
       "whySteps": {
-        "step1Title": "Learn Core Loops",
-        "step1Description": "Understand reroll, chapter unlocks, and class progression priorities.",
-        "step2Title": "Progress Faster",
-        "step2Description": "Use tested routes for story clears, farming, and event preparation.",
-        "step3Title": "Optimize Team Power",
-        "step3Description": "Match weapons, classes, and memory picks to each combat scenario."
+        "step1Title": "Track Exact Timings",
+        "step1Description": "See the latest Dragon Quest Smash Grow start times across regions without guessing.",
+        "step2Title": "Plan Session Windows",
+        "step2Description": "Align your daily play and event pushes with reset times, maintenance, and patch rollout windows.",
+        "step3Title": "Avoid Missed Rewards",
+        "step3Description": "Catch launch campaigns, login events, and limited milestones before they rotate out."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Dragon Quest Smash Grow Blessings",
-      "description": "Blessing and Adventure Skill guides with combo logic, class synergy, and mode-specific priorities.",
-      "metaTitle": "Dragon Quest Smash Grow Blessings - Adventure Skills and Combos",
-      "metaDescription": "Build stronger runs in Dragon Quest Smash Grow with practical blessing combos and Adventure Skill routing.",
-      "categoryLabel": "BLESSINGS & BUILDS",
-      "whatIs": "What are Blessings?",
-      "whatIsDescription": "Blessings and Adventure Skills shape each run by changing burst timing, control patterns, and sustain options.",
-      "why": "Why plan blessings?",
+    "reroll": {
+      "title": "Dragon Quest Smash Grow Reroll",
+      "description": "Dragon Quest Smash Grow reroll routes, keep-or-reset rules, and opening weapon priorities for efficient starts.",
+      "metaTitle": "Dragon Quest Smash Grow Reroll - Best Starting Weapons and Fast Reset Route",
+      "metaDescription": "Use the best Dragon Quest Smash Grow reroll strategy with target weapons, reset flow, and practical stop lines for launch progression.",
+      "categoryLabel": "REROLL ROUTES",
+      "whatIs": "What are Reroll Guides?",
+      "whatIsDescription": "Reroll guides focus on opening pulls, weapon target tiers, and repeatable reset routes that maximize early account value in Dragon Quest Smash Grow.",
+      "why": "Why optimize reroll?",
       "whySteps": {
-        "step1Title": "Build Cohesive Runs",
-        "step1Description": "Choose skills that reinforce your class and weapon strengths.",
-        "step2Title": "Adapt by Encounter",
-        "step2Description": "Swap one skill layer to answer specific boss and stage mechanics.",
-        "step3Title": "Improve Clear Stability",
-        "step3Description": "Combine damage, utility, and sustain for consistent completion rates."
+        "step1Title": "Secure Better Starts",
+        "step1Description": "Start with high-impact weapons that make story and farming smoother from day one.",
+        "step2Title": "Save Early Resources",
+        "step2Description": "Reduce wasted gems and tickets by locking a clear keep line before deeper progression.",
+        "step3Title": "Scale Faster",
+        "step3Description": "A strong reroll foundation improves damage consistency and unlock pacing across early chapters."
       },
       "featured": "Featured & Essential",
-      "all": "All Blessing Guides"
+      "all": "All Reroll Articles"
     },
-    "items": {
+    "videos": {
+      "title": "Dragon Quest Smash Grow Videos",
+      "description": "Dragon Quest Smash Grow trailer, gameplay, review, and first-impression video coverage in one navigation hub.",
+      "metaTitle": "Dragon Quest Smash Grow Videos - Trailer, Gameplay, and Review Hub",
+      "metaDescription": "Browse Dragon Quest Smash Grow video coverage including trailers, gameplay walkthroughs, and first-impression analysis.",
+      "categoryLabel": "VIDEO HUB",
+      "whatIs": "What is the Video Hub?",
+      "whatIsDescription": "The video hub curates Dragon Quest Smash Grow trailers, gameplay showcases, and practical visual breakdowns for key mechanics.",
+      "why": "Why watch video coverage?",
+      "whySteps": {
+        "step1Title": "Preview Gameplay Flow",
+        "step1Description": "See how combat pacing, movement density, and class swaps look before committing to a route.",
+        "step2Title": "Learn by Visuals",
+        "step2Description": "Use on-screen examples to understand boss patterns, setup order, and run execution faster.",
+        "step3Title": "Compare Playstyles",
+        "step3Description": "Evaluate different Dragon Quest Smash Grow builds and approaches in real matches."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Video Articles"
+    },
+    "weapons": {
       "title": "Dragon Quest Smash Grow Weapons",
-      "description": "Weapon and equipment analysis for reroll value, role fit, and long-term upgrade planning.",
-      "metaTitle": "Dragon Quest Smash Grow Weapons - Tier List and Upgrade Paths",
-      "metaDescription": "Compare Dragon Quest Smash Grow weapons by tier, class pairing, and progression value for story and co-op.",
-      "categoryLabel": "WEAPONS & EQUIPMENT",
+      "description": "Dragon Quest Smash Grow weapon rankings, tier context, and upgrade planning for story, farm, and co-op roles.",
+      "metaTitle": "Dragon Quest Smash Grow Weapons - Tier Rankings and Build Value",
+      "metaDescription": "Compare Dragon Quest Smash Grow weapons by role, tier, and upgrade priority to improve story clears and farming efficiency.",
+      "categoryLabel": "WEAPON GUIDES",
       "whatIs": "What are Weapon Guides?",
-      "whatIsDescription": "Weapon guides rank launch options, explain role coverage, and show which upgrades deliver the largest power jump.",
+      "whatIsDescription": "Weapon guides break down damage profiles, role fit, and investment efficiency so you can prioritize the best Dragon Quest Smash Grow equipment.",
       "why": "Why compare weapons?",
       "whySteps": {
-        "step1Title": "Set Reroll Targets",
-        "step1Description": "Know which early pulls create stable progression routes.",
-        "step2Title": "Pair with Classes",
-        "step2Description": "Match weapon strengths with class kits for better clear tempo.",
-        "step3Title": "Avoid Resource Waste",
-        "step3Description": "Invest upgrade materials into high-value weapons first."
+        "step1Title": "Prioritize High Value",
+        "step1Description": "Identify which weapons deliver the strongest early and mid-game gains for your roster.",
+        "step2Title": "Match Role Coverage",
+        "step2Description": "Pair the right weapon types with class roles for safer clears and stronger burst windows.",
+        "step3Title": "Spend Materials Better",
+        "step3Description": "Invest upgrade stones and gold into weapons that scale across multiple modes."
       },
       "featured": "Featured & Essential",
       "all": "All Weapon Articles"
     },
-    "biomes": {
-      "title": "Dragon Quest Smash Grow Modes",
-      "description": "Mode guides for co-op, gauntlet, and event stages with rewards and prep checklists.",
-      "metaTitle": "Dragon Quest Smash Grow Modes - Co-Op, Events, and Gauntlet",
-      "metaDescription": "Learn Dragon Quest Smash Grow mode rules, reward loops, and team setups for efficient clears.",
-      "categoryLabel": "MODES & QUESTS",
-      "whatIs": "What are Mode Guides?",
-      "whatIsDescription": "Mode guides explain each activity format, required preparation, and best reward path.",
-      "why": "Why learn modes?",
+    "guide": {
+      "title": "Dragon Quest Smash Grow Guide",
+      "description": "Dragon Quest Smash Grow general guides covering beginner progression, gacha decisions, multiplayer basics, and core systems.",
+      "metaTitle": "Dragon Quest Smash Grow Guide - Beginner Progression and Core Systems",
+      "metaDescription": "Read Dragon Quest Smash Grow guide content for beginner routes, gacha priorities, multiplayer basics, and efficient progression planning.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Guide Category?",
+      "whatIsDescription": "Guide articles explain Dragon Quest Smash Grow fundamentals with practical step-by-step routes for progression, farming, and mode readiness.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Enter Prepared",
-        "step1Description": "Use mode rules to choose the right class and weapon setup.",
-        "step2Title": "Farm Efficiently",
-        "step2Description": "Target stages with repeatable rewards and stable clear time.",
-        "step3Title": "Coordinate Co-Op",
-        "step3Description": "Align role coverage and communication for group consistency."
+        "step1Title": "Build Strong Foundations",
+        "step1Description": "Understand key systems early so your account growth stays consistent.",
+        "step2Title": "Reduce Trial and Error",
+        "step2Description": "Follow structured routes instead of wasting stamina and materials on low-value loops.",
+        "step3Title": "Reach Endgame Faster",
+        "step3Description": "Use reliable progression paths that transition cleanly into advanced Dragon Quest Smash Grow content."
       },
       "featured": "Featured & Essential",
-      "all": "All Mode Guides"
+      "all": "All Guide Articles"
     },
-    "building": {
-      "title": "Dragon Quest Smash Grow Team Building",
-      "description": "Party composition and role routing guides for story, boss, and co-op scenarios.",
-      "metaTitle": "Dragon Quest Smash Grow Team Building - Best Party Templates",
-      "metaDescription": "Build stronger Dragon Quest Smash Grow parties with role templates, class pairing logic, and mode-specific picks.",
-      "categoryLabel": "PARTY & ROLES",
-      "whatIs": "What is Team Building?",
-      "whatIsDescription": "Team building guides define role coverage and synergy so each party slot contributes clear value.",
-      "why": "Why optimize parties?",
+    "install": {
+      "title": "Dragon Quest Smash Grow Install",
+      "description": "Dragon Quest Smash Grow install and platform setup help for iOS, Android, emulator checks, and device preparation.",
+      "metaTitle": "Dragon Quest Smash Grow Install - iOS, Android, and Setup Guide",
+      "metaDescription": "Set up Dragon Quest Smash Grow with install steps, platform notes, and device preparation tips for smooth startup.",
+      "categoryLabel": "INSTALLATION",
+      "whatIs": "What is Install Support?",
+      "whatIsDescription": "Install support covers download paths, platform compatibility, emulator notes, and practical setup guidance for Dragon Quest Smash Grow.",
+      "why": "Why check install guides?",
       "whySteps": {
-        "step1Title": "Improve Clear Stability",
-        "step1Description": "Balanced teams survive mechanics better and finish runs faster.",
-        "step2Title": "Scale Damage Better",
-        "step2Description": "Role synergy boosts burst windows and sustained DPS output.",
-        "step3Title": "Handle More Content",
-        "step3Description": "Flexible templates adapt quickly to story, event, and co-op needs."
+        "step1Title": "Start Without Setup Issues",
+        "step1Description": "Use correct store links and platform checks to avoid failed installs and launch errors.",
+        "step2Title": "Optimize Device Readiness",
+        "step2Description": "Prepare storage, settings, and account steps before first launch for a cleaner onboarding flow.",
+        "step3Title": "Troubleshoot Faster",
+        "step3Description": "Resolve common install blockers quickly and return to gameplay with minimal downtime."
       },
       "featured": "Featured & Essential",
-      "all": "All Team Building Guides"
+      "all": "All Install Articles"
     },
-    "support": {
-      "title": "Dragon Quest Smash Grow Support",
-      "description": "Setup, troubleshooting, account, and platform help for Dragon Quest Smash Grow players.",
-      "metaTitle": "Dragon Quest Smash Grow Support - Setup and Troubleshooting",
-      "metaDescription": "Solve Dragon Quest Smash Grow setup issues, account problems, and gameplay blockers with practical support guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Support content covers installation, account setup, control options, and common issue resolution steps.",
-      "why": "Why check support?",
+    "beta": {
+      "title": "Dragon Quest Smash Grow Beta",
+      "description": "Dragon Quest Smash Grow beta coverage including test-phase systems, balance snapshots, and early build observations.",
+      "metaTitle": "Dragon Quest Smash Grow Beta - Test Build Notes and Early Meta",
+      "metaDescription": "Review Dragon Quest Smash Grow beta insights, test-phase mechanics, and early meta patterns from pre-release content.",
+      "categoryLabel": "BETA TRACKER",
+      "whatIs": "What is Beta Coverage?",
+      "whatIsDescription": "Beta coverage documents Dragon Quest Smash Grow test-build mechanics, early balance patterns, and feature behavior seen before full release.",
+      "why": "Why track beta content?",
       "whySteps": {
-        "step1Title": "Fix Setup Issues",
-        "step1Description": "Resolve launch blockers and account connection problems quickly.",
-        "step2Title": "Improve Stability",
-        "step2Description": "Apply settings and workflow changes that keep sessions smooth.",
-        "step3Title": "Save Time",
-        "step3Description": "Use proven solutions instead of repeating failed troubleshooting paths."
+        "step1Title": "Understand System Origins",
+        "step1Description": "See how current mechanics evolved from beta versions and which design patterns stayed consistent.",
+        "step2Title": "Read Early Meta Context",
+        "step2Description": "Use test-phase comparisons to understand why certain weapons and strategies gained priority.",
+        "step3Title": "Prepare for Future Changes",
+        "step3Description": "Historical beta notes make it easier to interpret upcoming Dragon Quest Smash Grow adjustments."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Beta Articles"
     }
   }
 }

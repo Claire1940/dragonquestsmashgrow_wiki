@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "release": "Release",
+    "reroll": "Reroll",
+    "videos": "Videos",
+    "weapons": "Weapons",
+    "guide": "Guide",
+    "install": "Install",
+    "beta": "Beta"
   },
   "common": {
     "home": "Inicio",

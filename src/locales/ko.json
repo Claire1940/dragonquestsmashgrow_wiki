@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "reroll": "Reroll",
+    "videos": "Videos",
+    "weapons": "Weapons",
+    "guide": "Guide",
+    "install": "Install",
+    "beta": "Beta"
+  }
+}

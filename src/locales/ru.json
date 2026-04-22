@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "release": "Release",
+    "reroll": "Reroll",
+    "videos": "Videos",
+    "weapons": "Weapons",
+    "guide": "Guide",
+    "install": "Install",
+    "beta": "Beta"
   },
   "common": {
     "home": "Главная",
