@@ -1,162 +1,114 @@
 # SEO 检查报告
 
-生成时间: 2026-03-14
+生成时间: 2026-04-22 06:55:00 UTC
 
 ## 检查摘要
 
-- ✅ 通过: 28 项
-- ❌ 失败: 5 项
-- ⚠️ 警告: 6 项
-- 📊 总计: 39 项
-
----
+- ✅ 通过: 29
+- ❌ 失败: 0
+- ⚠️ 警告: 2
+- 📊 总计: 31
 
 ## 详细结果
 
 ### 阶段 1：代码结构检查
 
-#### 1.1 根 Layout (`src/app/layout.tsx`)
-- ✅ 根 layout 存在（极简，仅透传 children）
-- ⚠️ 根 layout 无 `<html lang>` 标签 — 由 `[locale]/layout.tsx` 处理，架构上正确但需确认
+#### 1.1 根 Layout
+- ✅ `src/app/[locale]/layout.tsx` 包含 `<html lang={locale}>`
+- ✅ 包含站点级 metadata、robots、OpenGraph、Twitter、icons、alternates
+- ✅ 含 SearchAction（在首页 WebSite JSON-LD 中）
 
-#### 1.2 Locale Layout (`src/app/[locale]/layout.tsx`)
-- ✅ 包含 `<html lang={locale}>` 标签
-- ✅ 包含 favicon 图标配置（ico / 16x16 / 32x32 / apple-touch-icon）
-- ✅ 包含 manifest.json 引用
-- ✅ 包含 OpenGraph 标签（type, locale, url, siteName, title, description, images）
-- ✅ 包含 Twitter Card 标签（summary_large_image）
-- ✅ 包含 robots 配置（index: true, follow: true, googleBot 完整）
-- ✅ 包含 keywords 元标签
-- ✅ 包含 alternates / hreflang（通过 `buildLanguageAlternates`）
-- ✅ 使用环境变量 `NEXT_PUBLIC_SITE_URL`（有 fallback 到硬编码域名）
-- ⚠️ og-image 路径为 `/og-image.jpg`，需确认该文件存在于 `public/` 目录
+#### 1.2 动态页面 SEO
+- ✅ `src/app/[locale]/[...slug]/page.tsx` 正确生成 title/description
+- ✅ 包含 `alternates`（hreflang）
+- ✅ 包含 OpenGraph
+- ✅ 包含 robots
+- ✅ 非英文内容缺失时 fallback 英文
 
-#### 1.3 动态页面 SEO (`src/app/[locale]/[...slug]/page.tsx`)
-- ✅ `generateMetadata` 正确生成 title 和 description
-- ✅ 包含 alternates（hreflang）
-- ✅ 包含 OpenGraph 标签
-- ✅ 包含 robots 配置
-- ✅ 有 fallback 到英文的逻辑
-- ⚠️ 详情页 title 格式不一致：主语言用 `- Lucid Blocks Wiki`，fallback 语言用 `- Lucid Blocks`（缺少 "Wiki"）
-  - 文件: `src/app/[locale]/[...slug]/page.tsx:313`
-
-#### 1.4 Sitemap (`src/app/sitemap.ts`)
-- ❌ `BASE_URL` 硬编码为 `'https://www.lucidblocks.wiki'`，未使用环境变量
-  - 修复建议: `const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'`
-  - 优先级: 🟡 中
-- ✅ 包含所有语言版本的首页
-- ✅ 包含所有静态页面（about, privacy-policy, terms-of-service, copyright）
+#### 1.3 Sitemap
+- ✅ 使用环境变量站点地址（`NEXT_PUBLIC_SITE_URL`）
+- ✅ 包含所有语言首页
+- ✅ 包含静态页面
+- ✅ 包含内容列表页（本次修复新增）
 - ✅ 包含所有 MDX 文章
-- ✅ 优先级配置合理（首页 1.0，内容页 0.7-0.9，静态页 0.3-0.6）
-- ✅ 更新频率配置合理
+- ✅ 优先级/更新频率映射已与当前内容类型对齐（本次修复）
 
-#### 1.5 国际化配置 (`src/i18n/routing.ts`)
-- ✅ `localePrefix` 设置为 `'as-needed'`（默认语言无前缀）
-- ✅ `defaultLocale` 为 `'en'`
-- ✅ `localeDetection` 已启用
-- ✅ 支持 8 种语言：en, ru, pt, de, es, ja, ko, fr
+#### 1.4 国际化配置
+- ✅ `src/i18n/routing.ts` 中 `localePrefix: 'as-needed'`
+- ✅ `defaultLocale: 'en'`
+- ✅ `localeDetection: true`
 
-#### 1.6 结构化数据
-- ✅ `WebSite` 结构化数据存在（`src/app/[locale]/page.tsx`）
-- ✅ `SearchAction` 结构化数据存在（首页 `@graph` 中）
-- ✅ `Organization` 结构化数据存在（含 logo、sameAs 社交链接）
-- ✅ `VideoGame` 结构化数据存在（含 gamePlatform、genre、offers）
-- ✅ `ArticleStructuredData` 组件正确（含 headline, datePublished, dateModified, author, publisher）
-- ✅ `ListStructuredData` 组件正确（ItemList 格式）
-- ⚠️ `ArticleStructuredData` 中 publisher logo 使用 `/images/hero.webp`，建议改为专用 logo 图片
+#### 1.5 结构化数据组件
+- ✅ `ArticleStructuredData` 存在且有效
+- ✅ `ListStructuredData` 存在且有效
+- ✅ 首页输出 `WebSite + Organization + VideoGame` JSON-LD（含 SearchAction）
 
-#### 1.7 robots.txt (`public/robots.txt`)
-- ✅ 文件存在
-- ✅ 允许所有搜索引擎抓取（`User-agent: * / Allow: /`）
-- ✅ 包含 sitemap 链接
-- ⚠️ sitemap URL 硬编码，与 sitemap.ts 同样问题（低风险，robots.txt 为静态文件）
+#### 1.6 robots
+- ✅ `src/app/robots.ts` 存在并输出 `sitemap`
 
-#### 1.8 H1 标签
-- ✅ `NavigationPage` 有且仅有一个 H1（`<h1>{title}</h1>`）
-- ✅ `DetailPage` 有且仅有一个 H1（`<h1>{frontmatter.title}</h1>`）
-- ✅ 首页有且仅有一个 H1（`<h1>{t.hero.title}</h1>`）
-- ✅ H1 在页面顶部语义位置
+#### 1.7 H1 标签
+- ✅ 首页、列表页、详情页、法律页均有 H1
+- ✅ 页面主语义与主题一致（Dragon Quest Smash Grow）
 
-#### 1.9 图片 alt 属性
-- ✅ `NavigationPage` 中 Image 组件有描述性 alt（`${title} - Featured ${contentType} guide`）
-- ✅ `DetailPage` 中 Image 组件有描述性 alt（`${title} - ${contentTypeLabel}`）
-- ✅ Next.js Image 组件均有 alt 属性
+#### 1.8 图片 alt
+- ✅ `Image` 组件均设置 alt 文本
 
-#### 1.10 面包屑导航
-- ✅ `DetailPage` 有面包屑（首页 → 内容类型 → 当前页）
-- ✅ 面包屑有正确的链接
-- ❌ 面包屑缺少 `BreadcrumbList` JSON-LD 结构化数据
-  - 修复建议: 在 `DetailPage` 或 `ArticleStructuredData` 中添加 BreadcrumbList schema
-  - 优先级: 🟡 中
-- ❌ 面包屑缺少 `aria-label="breadcrumb"` 无障碍属性
-  - 修复建议: 将面包屑包裹在 `<nav aria-label="breadcrumb">` 中
-  - 优先级: 🟡 中
+#### 1.9 面包屑
+- ✅ 详情页含可见 breadcrumb 导航
+- ✅ `ArticleStructuredData` 含 BreadcrumbList JSON-LD
 
-#### 1.11 内链
-- ✅ `DetailPage` 有相关文章（RelatedArticles 组件，最多 3 篇）
-- ✅ `NavigationPage` 有完整的内容列表链接
-- ✅ 首页 Footer 有内部法律页面链接
-- ✅ 内部链接使用 next-intl 的 `Link` 组件（自动处理 locale 前缀）
+#### 1.10 内链与站内结构
+- ✅ 修复首页 Latest Updates 链接与 `localePrefix: as-needed` 一致性（本次修复）
+- ✅ 修复法律页返回首页链接为 i18n Link（本次修复）
+- ✅ 移除 `src/` 下旧备份文件品牌残留（本次修复）
 
 ### 阶段 2：构建验证
 
-- ⚠️ 未执行构建测试（需手动运行 `npm run build`）
+- ✅ `npm run typecheck` 通过
+- ✅ `npm run lint` 通过（仅 Next.js deprecate 提示，无错误）
+- ✅ `npm run build` 通过
 
 ### 阶段 3：安全检查
 
-- ✅ 代码中无 API 密钥硬编码（`sk-`、`API_KEY`、`password` 均未发现）
-- ✅ `.gitignore` 包含 `.env*`（覆盖所有 .env 文件）
-- ✅ 无旧项目品牌词残留（"Bizarre Lineage" 未发现）
+- ✅ `src/` 内未发现 `sk-`、`API_KEY`、`password` 硬编码
+- ✅ `.gitignore` 包含 `.env*`
 
 ### 阶段 4：本地运行验证
 
-- ⚠️ 需手动验证（启动 `npm run dev` 后在浏览器中检查）
+- ✅ dev 服务启动成功（端口 8209）
+- ✅ 首页 `HEAD` 返回 `200`
+- ✅ 非默认语言 `/ja`、`/ko` 返回 `200`
+- ✅ `/en` 返回 `307`（符合 `as-needed` 预期）
+- ✅ 首页 `{{OLD_THEME}}` 残留计数为 `0`
+- ✅ 首页模块 H2 包含链接（快速统计：`H2_TOTAL=20`, `H2_WITH_A=13`）
 
----
+## 本次修复清单
 
-## 修复建议
+1. 链接一致性
+- `src/components/home/LatestGuides.tsx`
+- `src/components/home/LatestGuidesAccordion.tsx`
+- 从手写 `/${locale}/...` 切换到 i18n Link 路由行为，避免默认语言 `/en` 链接不一致。
 
-### 🔴 高优先级（必须修复）
+2. 法律页 i18n 返回链接
+- `src/app/[locale]/about/page.tsx`
+- `src/app/[locale]/privacy-policy/page.tsx`
+- `src/app/[locale]/terms-of-service/page.tsx`
+- `src/app/[locale]/copyright/page.tsx`
+- 统一改用 `@/i18n/navigation` 的 `Link`。
 
-无高优先级问题。
+3. 旧品牌残留清理
+- 删除 `src/app/[locale]/terms-of-service/page.tsx.bak`（含旧域名残留）。
 
-### 🟡 中优先级（建议修复）
+4. Sitemap 结构修复
+- `src/app/sitemap.ts`
+- 内容类型映射更新为当前站点结构（release/reroll/videos/weapons/guide/install/beta）
+- 新增各内容列表页 URL 入 sitemap。
 
-**1. Sitemap BASE_URL 使用环境变量**
-- 文件: `src/app/sitemap.ts:5`
-- 当前: `const BASE_URL = 'https://www.lucidblocks.wiki'`
-- 修复: `const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'`
+5. 多语言翻译
+- `src/locales/ja.json`、`src/locales/ko.json` 使用脚本完整覆盖重译
+- 行数从 `932/11` 提升到 `1405/1405`，JSON 合法。
 
-**2. 详情页 fallback title 格式不一致**
-- 文件: `src/app/[locale]/[...slug]/page.tsx:313`
-- 当前: `` `${metadata.title} - Lucid Blocks` ``
-- 修复: `` `${metadata.title} - Lucid Blocks Wiki` ``
+## 警告项
 
-**3. 面包屑缺少 BreadcrumbList JSON-LD**
-- 文件: `src/components/content/DetailPage.tsx`
-- 修复: 在 `ArticleStructuredData` 中添加 BreadcrumbList schema，或单独创建 `BreadcrumbStructuredData` 组件
-
-**4. 面包屑缺少 aria-label**
-- 文件: `src/components/content/DetailPage.tsx:73`
-- 修复: 将面包屑 div 改为 `<nav aria-label="breadcrumb">`
-
-### 🟢 低优先级（可选优化）
-
-**5. 确认 og-image.jpg 存在**
-- 检查 `public/og-image.jpg` 是否存在，否则 OpenGraph 分享图片会 404
-
-**6. ArticleStructuredData publisher logo**
-- 当前使用 `/images/hero.webp`（游戏截图）
-- 建议改为专用 logo 图片（如 `/android-chrome-512x512.png`）
-
----
-
-## 下一步行动
-
-1. 修复 🟡 中优先级问题（约 30 分钟）
-2. 运行 `npm run build` 验证构建
-3. 启动 `npm run dev`，手动检查：
-   - 首页 `http://localhost:3000/` 的 title、description、hreflang
-   - `http://localhost:3000/sitemap.xml` 格式
-   - 详情页面包屑显示
-4. 部署后使用 Google Search Console 提交 sitemap
+1. ⚠️ `src/locales/de|es|fr|pt|ru|tr.json` 仍存在旧主题内容，但当前 `routing.ts` 未启用这些语言，不影响线上路由。
+2. ⚠️ 构建日志存在 next-intl 的 webpack cache warning（基线噪音，未阻断构建）。

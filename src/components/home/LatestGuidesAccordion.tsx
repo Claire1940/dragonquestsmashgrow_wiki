@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import type { ContentItem } from '@/lib/content'
 
 interface ContentItemWithType extends ContentItem {
@@ -22,7 +22,7 @@ function AccordionColumn({ articles, locale }: { articles: ContentItemWithType[]
       aria-label="Latest articles"
     >
       {articles.map((article, index) => {
-        const url = `/${locale}/${article.contentType}/${article.slug}`
+        const url = `/${article.contentType}/${article.slug}`
         const detailsId = `article-${article.contentType}-${article.slug}`
 
         return (

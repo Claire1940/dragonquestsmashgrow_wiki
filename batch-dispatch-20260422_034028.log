@@ -75,3 +75,714 @@ Waiting for task: game-refactor-part1-basic-config-dragonquestsmashgrow_20260422
    Still waiting... (540s / 7200s)
    Still waiting... (600s / 7200s)
    Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+Task completed: game-refactor-part1-basic-config-dragonquestsmashgrow_20260422_034028_2604627 (900s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [2/10]: game-refactor-part2-metadata-seo-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (4297 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part2-metadata-seo-dragonquestsmashgrow_20260422_035543_2620052
+   Task: game-refactor-part2-metadata-seo-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part2-metadata-seo-dragonquestsmashgrow_20260422_035543_2620052.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b02264dca0c2e0d3d57e18bf3
+   Task ID: game-refactor-part2-metadata-seo-dragonquestsmashgrow_20260422_035543_2620052
+Waiting for task: game-refactor-part2-metadata-seo-dragonquestsmashgrow_20260422_035543_2620052 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+   Still waiting... (960s / 7200s)
+   Still waiting... (1020s / 7200s)
+   Still waiting... (1080s / 7200s)
+   Still waiting... (1140s / 7200s)
+   Still waiting... (1200s / 7200s)
+   Still waiting... (1260s / 7200s)
+   Still waiting... (1320s / 7200s)
+   Still waiting... (1380s / 7200s)
+   Still waiting... (1440s / 7200s)
+   Still waiting... (1500s / 7200s)
+   Still waiting... (1560s / 7200s)
+   Still waiting... (1620s / 7200s)
+   Still waiting... (1680s / 7200s)
+   Still waiting... (1740s / 7200s)
+   Still waiting... (1800s / 7200s)
+   Still waiting... (1860s / 7200s)
+   Still waiting... (1920s / 7200s)
+   Still waiting... (1980s / 7200s)
+   Still waiting... (2040s / 7200s)
+   Still waiting... (2100s / 7200s)
+   Still waiting... (2160s / 7200s)
+   Still waiting... (2220s / 7200s)
+   Still waiting... (2280s / 7200s)
+   Still waiting... (2340s / 7200s)
+Task completed: game-refactor-part2-metadata-seo-dragonquestsmashgrow_20260422_035543_2620052 (2340s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [3/10]: game-refactor-part3-multilang-nav-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (11180 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part3-multilang-nav-dragonquestsmashgrow_20260422_043457_2670248
+   Task: game-refactor-part3-multilang-nav-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part3-multilang-nav-dragonquestsmashgrow_20260422_043457_2670248.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b14ec07080c2ee38074ce9c01
+   Task ID: game-refactor-part3-multilang-nav-dragonquestsmashgrow_20260422_043457_2670248
+Waiting for task: game-refactor-part3-multilang-nav-dragonquestsmashgrow_20260422_043457_2670248 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+Task completed: game-refactor-part3-multilang-nav-dragonquestsmashgrow_20260422_043457_2670248 (480s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [4/10]: game-refactor-part4-homepage-1-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (6962 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part4-homepage-1-dragonquestsmashgrow_20260422_044313_2684095
+   Task: game-refactor-part4-homepage-1-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part4-homepage-1-dragonquestsmashgrow_20260422_044313_2684095.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b150737504c3144ecc32f83e3
+   Task ID: game-refactor-part4-homepage-1-dragonquestsmashgrow_20260422_044313_2684095
+Waiting for task: game-refactor-part4-homepage-1-dragonquestsmashgrow_20260422_044313_2684095 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+   Still waiting... (960s / 7200s)
+   Still waiting... (1020s / 7200s)
+   Still waiting... (1080s / 7200s)
+Task completed: game-refactor-part4-homepage-1-dragonquestsmashgrow_20260422_044313_2684095 (1120s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [5/10]: game-refactor-part5-homepage-2-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (5879 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part5-homepage-2-dragonquestsmashgrow_20260422_050206_2710311
+   Task: game-refactor-part5-homepage-2-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part5-homepage-2-dragonquestsmashgrow_20260422_050206_2710311.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b12b51e8a0c4cf0807d0d2490
+   Task ID: game-refactor-part5-homepage-2-dragonquestsmashgrow_20260422_050206_2710311
+Waiting for task: game-refactor-part5-homepage-2-dragonquestsmashgrow_20260422_050206_2710311 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+   Still waiting... (960s / 7200s)
+   Still waiting... (1020s / 7200s)
+Task completed: game-refactor-part5-homepage-2-dragonquestsmashgrow_20260422_050206_2710311 (1060s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [6/10]: game-refactor-part6-homepage-3-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (5879 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part6-homepage-3-dragonquestsmashgrow_20260422_051959_2735333
+   Task: game-refactor-part6-homepage-3-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part6-homepage-3-dragonquestsmashgrow_20260422_051959_2735333.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b1e67f70a8c3afb17a9a51154
+   Task ID: game-refactor-part6-homepage-3-dragonquestsmashgrow_20260422_051959_2735333
+Waiting for task: game-refactor-part6-homepage-3-dragonquestsmashgrow_20260422_051959_2735333 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+   Still waiting... (960s / 7200s)
+   Still waiting... (1020s / 7200s)
+   Still waiting... (1080s / 7200s)
+   Still waiting... (1140s / 7200s)
+   Still waiting... (1200s / 7200s)
+   Still waiting... (1260s / 7200s)
+   Still waiting... (1320s / 7200s)
+   Still waiting... (1380s / 7200s)
+   Still waiting... (1440s / 7200s)
+   Still waiting... (1500s / 7200s)
+   Still waiting... (1560s / 7200s)
+   Still waiting... (1620s / 7200s)
+   Still waiting... (1680s / 7200s)
+   Still waiting... (1740s / 7200s)
+   Still waiting... (1800s / 7200s)
+   Still waiting... (1860s / 7200s)
+   Still waiting... (1920s / 7200s)
+   Still waiting... (1980s / 7200s)
+   Still waiting... (2040s / 7200s)
+   Still waiting... (2100s / 7200s)
+   Still waiting... (2160s / 7200s)
+Task completed: game-refactor-part6-homepage-3-dragonquestsmashgrow_20260422_051959_2735333 (2180s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [7/10]: game-refactor-part7-homepage-4-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (5879 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part7-homepage-4-dragonquestsmashgrow_20260422_055633_2783338
+   Task: game-refactor-part7-homepage-4-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part7-homepage-4-dragonquestsmashgrow_20260422_055633_2783338.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b27f1eb0bcc34729d6655a7a4
+   Task ID: game-refactor-part7-homepage-4-dragonquestsmashgrow_20260422_055633_2783338
+Waiting for task: game-refactor-part7-homepage-4-dragonquestsmashgrow_20260422_055633_2783338 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+Task completed: game-refactor-part7-homepage-4-dragonquestsmashgrow_20260422_055633_2783338 (860s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [8/10]: game-refactor-part8-articles-navigation-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (5878 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part8-articles-navigation-dragonquestsmashgrow_20260422_061106_2801668
+   Task: game-refactor-part8-articles-navigation-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part8-articles-navigation-dragonquestsmashgrow_20260422_061106_2801668.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b226a73ca4c3b0cf75e0a2349
+   Task ID: game-refactor-part8-articles-navigation-dragonquestsmashgrow_20260422_061106_2801668
+Waiting for task: game-refactor-part8-articles-navigation-dragonquestsmashgrow_20260422_061106_2801668 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+Task completed: game-refactor-part8-articles-navigation-dragonquestsmashgrow_20260422_061106_2801668 (800s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [9/10]: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (6662 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow_20260422_062439_2819746
+   Task: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow_20260422_062439_2819746.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b2d5e388b0c4ea29c1886ef8c
+   Task ID: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow_20260422_062439_2819746
+Waiting for task: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow_20260422_062439_2819746 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+Task completed: game-refactor-part9-linkmap-wikilinks-dragonquestsmashgrow_20260422_062439_2819746 (820s)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [10/10]: game-refactor-part10-translation-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Chaining from previous task (3881 chars)
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part10-translation-dragonquestsmashgrow_20260422_063832_2837810
+   Task: game-refactor-part10-translation-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part10-translation-dragonquestsmashgrow_20260422_063832_2837810.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b281ec9888c32abb74e2065ef
+   Task ID: game-refactor-part10-translation-dragonquestsmashgrow_20260422_063832_2837810
+Waiting for task: game-refactor-part10-translation-dragonquestsmashgrow_20260422_063832_2837810 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
+   Still waiting... (720s / 7200s)
+   Still waiting... (780s / 7200s)
+   Still waiting... (840s / 7200s)
+   Still waiting... (900s / 7200s)
+   Still waiting... (960s / 7200s)
+   Still waiting... (1020s / 7200s)
+   Still waiting... (1080s / 7200s)
