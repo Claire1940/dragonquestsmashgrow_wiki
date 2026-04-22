@@ -18,14 +18,14 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
   lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
   lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
+  lucidBlocksQualiaAndBaseBuilding: { field: 'items', nameKey: 'entry' },
+  lucidBlocksWorldRegions: { field: 'items', nameKey: 'entry' },
+  lucidBlocksCreaturesAndEnemies: { field: 'items', nameKey: 'title' },
+  lucidBlocksMobilityGear: { field: 'items', nameKey: 'title' },
+  lucidBlocksFarmingAndGrowth: { field: 'items', nameKey: 'title' },
+  lucidBlocksBestEarlyUnlocks: { field: 'sections', nameKey: 'section' },
+  lucidBlocksAchievementTracker: { field: 'tiers', nameKey: 'tier' },
+  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'items', nameKey: 'name' },
   lucidBlocksSteamDeckAndController: { field: 'items', nameKey: 'title' },
   lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'title' },
   lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'title' },
@@ -35,25 +35,25 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['gems', 'farming', 'daily missions', 'adventure rank', 'codex'],
-  lucidBlocksSettingsAndAccessibility: ['daily checklist', 'daily missions', 'stamina', 'login bonus'],
-  lucidBlocksUpdatesAndPatchNotes: ['leveling', 'metal quests', 'adventure rank', 'tickets'],
-  lucidBlocksCrashFixAndTroubleshooting: ['co op', 'multiplayer pass', 'room number', 'matchmaking'],
+  lucidBlocksBeginnerGuide: ['reroll guide', '26 pull', 'redraw', 'metal wing boomerang', 'metal slime sword', 'starter'],
+  lucidBlocksApotheosisCrafting: ['beginner guide', 'adventure rank', 'training quests', 'story progression', 'vocation', 'expedition'],
+  lucidBlocksToolsAndWeapons: ['best weapon', 'tier list', 'metal wing boomerang', 'shiverstick', 'fire blade', 'platinum plumes'],
+  lucidBlocksStorageAndInventory: ['best classes', 'thief', 'mage', 'warrior', 'vocation', 'party roles'],
+  lucidBlocksQualiaAndBaseBuilding: ['retry gacha', 'guaranteed 3-star', 'reroll', 'ice staff', 'fire sword', 'crystal claws'],
+  lucidBlocksWorldRegions: ['gacha guide', 'metal equipment', 'pickup pity', 'premium equipment', 'daily ad pull', '200 pulls'],
+  lucidBlocksCreaturesAndEnemies: ['best party', 'farming party', 'auto team', 'hard stage', 'adventure skills', 'multiplayer'],
+  lucidBlocksMobilityGear: ['release date', 'global launch', 'pre-download', 'beta', 'event window', 'april 21'],
+  lucidBlocksFarmingAndGrowth: ['codes', 'redeem', 'official discord', 'official x', 'official facebook', 'code status'],
+  lucidBlocksBestEarlyUnlocks: ['story walkthrough', 'chapter 1', 'chapter 2', 'boss', 'hard mode', 'unlock'],
+  lucidBlocksAchievementTracker: ['memory tier list', 'memory', 'ss tier', 'farm targets', 'yellow slots', 'purple slots'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['adventure skills', 'build', 'normal attack', 'sword build', 'jibaria', 'weapon pairing'],
+  lucidBlocksSteamDeckAndController: ['gems farming', 'daily missions', 'adventure rank', 'codex', 'panel missions', 'login bonus'],
+  lucidBlocksSettingsAndAccessibility: ['daily checklist', 'daily reset', 'stamina', 'stage skips', 'free pull', 'expedition'],
+  lucidBlocksUpdatesAndPatchNotes: ['leveling guide', 'metal quests', 'metal tickets', 'adventure rank', 'growth quests', 'job progression'],
+  lucidBlocksCrashFixAndTroubleshooting: ['co-op', 'multiplayer', 'room code', 'multiplayer pass', 'stickers', 'matchmaking'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['dragon', 'quest', 'smash', 'grow', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of project name)
+  const strippedQuery = normalizedQuery.replace(/dragon quest smash grow\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/dragon quest smash grow\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

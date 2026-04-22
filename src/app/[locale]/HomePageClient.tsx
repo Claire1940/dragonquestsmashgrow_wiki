@@ -41,17 +41,26 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 
 // Conditionally render text as a link or plain span
 function LinkedTitle({
-  linkData: _linkData,
+  linkData,
   children,
   className,
-  locale: _locale,
+  locale,
 }: {
   linkData: { url: string; title: string } | null | undefined
   children: React.ReactNode
   className?: string
   locale: string
 }) {
-  return <span className={className}>{children}</span>
+  if (!linkData?.url) {
+    return <span className={className}>{children}</span>
+  }
+
+  const href = locale === 'en' ? linkData.url : `/${locale}${linkData.url}`
+  return (
+    <Link href={href} className={className} title={linkData.title}>
+      {children}
+    </Link>
+  )
 }
 
 interface HomePageClientProps {
