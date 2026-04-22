@@ -1,0 +1,77 @@
+Batch Codex dispatch
+   Tasks file: /root/.openclaw/skills/game-refactor/tasks/game-refactor-dragonquestsmashgrow-tasks.json
+   Workdir: /root/Documents/GameProjects/dragonquestsmashgrow_wiki
+   Feishu: oc_e4f98b748e58cdbd958e213960da26a4
+   Tmux session: dragonquestsmashgrow_wiki
+
+Total tasks: 10
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [1/10]: game-refactor-part1-basic-config-dragonquestsmashgrow
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dragonquestsmashgrow_wiki/task-meta.json
+   Task ID: game-refactor-part1-basic-config-dragonquestsmashgrow_20260422_034028_2604627
+   Task: game-refactor-part1-basic-config-dragonquestsmashgrow
+   Target: oc_e4f98b748e58cdbd958e213960da26a4
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part1-basic-config-dragonquestsmashgrow_20260422_034028_2604627.md
+Creating tmux session: dragonquestsmashgrow_wiki
+Auto-trusted directories in config.toml: ['/root/Documents/GameProjects/dragonquestsmashgrow_wiki']
+Started codex-agent in tmux session: dragonquestsmashgrow_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+
+Task sent to codex session: dragonquestsmashgrow_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dragonquestsmashgrow_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[info]: [ 'client ready' ]
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+[35m[plugins][39m [36mfeishu_doc: Registered feishu_doc, feishu_app_scopes[39m
+[35m[plugins][39m [36mfeishu_chat: Registered feishu_chat tool[39m
+[35m[plugins][39m [36mfeishu_wiki: Registered feishu_wiki tool[39m
+[35m[plugins][39m [36mfeishu_drive: Registered feishu_drive tool[39m
+[35m[plugins][39m [36mfeishu_bitable: Registered bitable tools[39m
+✅ Sent via Feishu. Message ID: om_x100b51b07d40f0b0c11d9897b6e2509
+   Task ID: game-refactor-part1-basic-config-dragonquestsmashgrow_20260422_034028_2604627
+Waiting for task: game-refactor-part1-basic-config-dragonquestsmashgrow_20260422_034028_2604627 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)
