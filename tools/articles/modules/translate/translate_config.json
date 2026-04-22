@@ -8,32 +8,21 @@
   "timeout": 120,
   "retry_attempts": 3,
   "retry_delay": 5,
-
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": [
+    "ja",
+    "ko"
+  ],
   "default_language": "en",
   "output_dir": "content/",
-
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Dragon Quest Smash Grow",
+    "ja": "ドラゴンクエストスマッシュグロウ",
+    "ko": "드래곤 퀘스트 스매시 그로우"
   },
-
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "ko": "Korean"
   },
-
   "batch_size": 20,
   "batch_delay": 1
 }
