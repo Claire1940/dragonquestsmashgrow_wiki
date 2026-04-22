@@ -102,22 +102,22 @@
       {
         "icon": "TrendingUp",
         "title": "Dragon Quest Smash Grow Codes",
-        "description": "Active code tracking and redeem steps"
+        "description": "Live code status, redeem note, and official watchlist"
       },
       {
         "icon": "Star",
         "title": "Dragon Quest Smash Grow Story Walkthrough",
-        "description": "Chapter flow with boss checklists"
+        "description": "Chapter route, boss checks, and unlock milestones"
       },
       {
         "icon": "ClipboardCheck",
         "title": "Dragon Quest Smash Grow Best Memory",
-        "description": "Memory picks by color and class synergy"
+        "description": "Tier picks, slot-color matching, and early farm targets"
       },
       {
         "icon": "MessageCircle",
         "title": "Dragon Quest Smash Grow Adventure Skills",
-        "description": "Blessing combos and build direction FAQ"
+        "description": "Core builds, skill packages, and weapon pairings"
       },
       {
         "icon": "Gamepad2",
@@ -518,153 +518,449 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Dragon Quest Smash Grow Codes",
-      "displayType": "mixedCards",
-      "intro": "Track Dragon Quest Smash Grow code drops in one place and redeem quickly before event windows rotate.",
-      "sections": [
+      "eyebrow": "Redeem Codes",
+      "title": "Dragon Quest Smash Grow Codes, Redemption Status, and Official Drop Channels",
+      "subtitle": "This page tracks every active code, every expired code, and every official place where new freebies are posted. It is the fastest way to check the live code state without digging through social feeds.",
+      "displayType": "statusCards",
+      "intro": "The current tracked code status is simple: there are no active codes and no expired codes listed yet. What matters now is having the live status, the redemption note, and the official watchlist in one place so players can jump on the first real code drop as soon as it appears.",
+      "items": [
         {
-          "name": "Active Codes",
-          "description": "List all currently redeemable Dragon Quest Smash Grow codes with direct reward notes."
+          "title": "Active Codes",
+          "status": "active",
+          "value": "None right now",
+          "description": "The tracked code pages do not list any working Dragon Quest Smash Grow codes at the moment."
         },
         {
-          "name": "Expired Codes",
-          "description": "Archive expired Dragon Quest Smash Grow codes so players avoid wasted redemption attempts."
+          "title": "Expired Codes",
+          "status": "expired",
+          "value": "None tracked",
+          "description": "No expired codes are listed yet, so the expired archive is still empty."
         },
         {
-          "name": "Redeem Steps",
-          "description": "Open settings or code menu path, enter code exactly, and collect rewards from present inbox."
+          "title": "How to Redeem",
+          "status": "guide",
+          "value": "Redemption menu not published yet",
+          "description": "The tracked code pages have not posted a public in-game redemption flow yet, so this slot is best used as the live placeholder for the first confirmed redeem path."
         },
         {
-          "name": "Official Code Sources",
-          "description": "Monitor official site notices, social channels, and in-game event announcements for new drops."
+          "title": "Official X",
+          "status": "channel",
+          "value": "@DQSG_EN",
+          "description": "Use the official English account for launch posts, campaign notices, and future code drops.",
+          "href": "https://x.com/DQSG_EN"
+        },
+        {
+          "title": "Official Facebook",
+          "status": "channel",
+          "value": "DragonQuestSmashGrow",
+          "description": "Use the official Facebook page for event posts, launch promotions, and reward announcements.",
+          "href": "https://www.facebook.com/DragonQuestSmashGrow/"
+        },
+        {
+          "title": "Official Discord",
+          "status": "channel",
+          "value": "Dragon Quest Discord",
+          "description": "The official teaser site links directly to the Dragon Quest Discord, making it part of the main code-watch list.",
+          "href": "https://discord.com/invite/MmxDbG42cP"
         }
-      ],
-      "growthMilestones": [
-        "Check code list at each daily reset",
-        "Redeem event codes as soon as they appear",
-        "Log expiration windows by patch cycle",
-        "Sync code rewards with pull planning"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Dragon Quest Smash Grow Story Walkthrough",
-      "displayType": "priorityCards",
-      "intro": "Follow a chapter-first walkthrough with priority checkpoints so story progression stays smooth and efficient.",
-      "priorities": [
+      "eyebrow": "Story Guide",
+      "title": "Dragon Quest Smash Grow Story Walkthrough by Chapter, Unlock, and Boss Check",
+      "subtitle": "This module breaks the story route into practical checkpoints so players know what to push first, what each milestone unlocks, and where the first real wall fights appear. It is built for users searching chapter clears, boss help, and early progression order.",
+      "displayType": "chapterSections",
+      "intro": "The story route is more than a chapter list because it also gates companions, Hard Mode, Minimal Expedition, and several major account systems. The cleanest early plan is to push through Chapter 1 fast, learn the first element checks at 1-9 and 1-10, then use the early Chapter 2 stretch to stabilize memory choices and unlocks.",
+      "sections": [
         {
-          "name": "Chapter Push Order",
-          "priority": "Essential",
-          "description": "Clear main story nodes first to unlock party slots, systems, and better farming routes."
+          "section": "Chapter 1: Ruina Plains route",
+          "summary": "Ruina Plains runs from Lv.1 to Lv.10 and becomes your first real element check at 1-9 and 1-10, where Thunder and Wind are the recommended answers.",
+          "rows": [
+            {
+              "stage": "1-1",
+              "recommended_level": "Lv.1",
+              "recommended_element": "None",
+              "boss": "Dracky"
+            },
+            {
+              "stage": "1-2",
+              "recommended_level": "Lv.2",
+              "recommended_element": "None",
+              "boss": "Slime"
+            },
+            {
+              "stage": "1-3",
+              "recommended_level": "Lv.3",
+              "recommended_element": "None",
+              "boss": "Lilliput"
+            },
+            {
+              "stage": "1-4",
+              "recommended_level": "Lv.4",
+              "recommended_element": "None",
+              "boss": "Big Hammer"
+            },
+            {
+              "stage": "1-5",
+              "recommended_level": "Lv.5",
+              "recommended_element": "None",
+              "boss": "Healslime"
+            },
+            {
+              "stage": "1-6",
+              "recommended_level": "Lv.6",
+              "recommended_element": "None",
+              "boss": "Apprentice Demon"
+            },
+            {
+              "stage": "1-7",
+              "recommended_level": "Lv.7",
+              "recommended_element": "None",
+              "boss": "Big Hammer"
+            },
+            {
+              "stage": "1-8",
+              "recommended_level": "Lv.8",
+              "recommended_element": "None",
+              "boss": "Lilliput"
+            },
+            {
+              "stage": "1-9",
+              "recommended_level": "Lv.9",
+              "recommended_element": "Thunder, Wind",
+              "boss": "Stone Man"
+            },
+            {
+              "stage": "1-10",
+              "recommended_level": "Lv.10",
+              "recommended_element": "Thunder, Wind",
+              "boss": "Golem"
+            }
+          ],
+          "notes": [
+            "Stage 1-5 is the first major story checkpoint because your first companion joins here.",
+            "Ruina Plains 1-5 and 1-6 are also the standout early Lime Slime memory farming spots.",
+            "Clearing 1-10 unlocks both Minimal Expedition and Story Hard."
+          ]
         },
         {
-          "name": "Boss Gate Prep",
-          "priority": "Very High",
-          "description": "Before each boss checkpoint, upgrade one core weapon and align class role buffs for stable clears."
+          "section": "Chapter 1 boss help",
+          "summary": "The early walls are not spread evenly. The first real trouble points are the heal check at 1-5, the cast check at 1-6, and the element checks at 1-9 and 1-10.",
+          "rows": [
+            {
+              "boss": "Healslime",
+              "stage": "1-5",
+              "tip": "Clear the smaller enemies before the heal lands so the fight does not drag."
+            },
+            {
+              "boss": "Apprentice Demon",
+              "stage": "1-6",
+              "tip": "Back off as soon as the casting effect appears and reset your angle before re-engaging."
+            },
+            {
+              "boss": "Stone Man",
+              "stage": "1-9",
+              "tip": "Prioritize dodging the scattered rock attacks and bring Thunder or Wind if your box already supports it."
+            },
+            {
+              "boss": "Golem",
+              "stage": "1-10",
+              "tip": "Use Thunder or Wind and let Auto handle the movement if manual dodges are costing too much HP."
+            }
+          ],
+          "notes": [
+            "The game starts asking for cleaner movement and stronger element alignment at the very end of Chapter 1.",
+            "Do not overfeed useful memories before this stretch because the right early memory matters more than small raw stat bumps."
+          ]
         },
         {
-          "name": "Element Coverage",
-          "priority": "Very High",
-          "description": "Maintain at least two elemental options so chapter enemies do not stall progression pacing."
+          "section": "Early Chapter 2 checklist",
+          "summary": "Chapter 2 is where the story starts paying off with better farming habits, more party flexibility, and stronger account management decisions.",
+          "rows": [
+            {
+              "trigger": "Start Chapter 2",
+              "focus": "Monster Rush access",
+              "details": "Monster Rush opens after clearing 1-10 and moving into Chapter 2."
+            },
+            {
+              "trigger": "2-2",
+              "focus": "Second companion",
+              "details": "Push to 2-2 quickly because the second companion is one of the biggest early power spikes for party flexibility."
+            },
+            {
+              "trigger": "Before boss waves",
+              "focus": "Rare monster checks",
+              "details": "Rare monsters can appear before the boss wave, so scan the room instead of sprinting straight to the portal."
+            },
+            {
+              "trigger": "Every memory drop",
+              "focus": "Memory management",
+              "details": "Keep rare memories and match memory color to slot color instead of burning strong early pieces as enhancement fodder."
+            }
+          ],
+          "notes": [
+            "The early Chapter 2 goal is not only story progress but also locking in better long-run farming habits.",
+            "Color-matched memories are much stronger than random off-color fills, so this is where the account starts to feel more structured."
+          ]
         },
         {
-          "name": "Adventure Rank Tracking",
-          "priority": "High",
-          "description": "Use rank milestones to decide when to pause story and complete unlock-oriented side tasks."
-        },
-        {
-          "name": "Resource Conversion Windows",
-          "priority": "High",
-          "description": "Convert materials before chapter spikes so power jumps happen ahead of difficulty walls."
-        },
-        {
-          "name": "Stage Replay Discipline",
-          "priority": "High",
-          "description": "Replay only high-value stages tied to your immediate upgrade plan, then return to mainline progress."
+          "section": "Key story unlocks to plan around",
+          "summary": "The story is the main feature gate for the account, so every chapter milestone has a systems payoff attached to it.",
+          "rows": [
+            {
+              "trigger": "1-5",
+              "unlock": "First companion joins"
+            },
+            {
+              "trigger": "2-2",
+              "unlock": "Second companion joins"
+            },
+            {
+              "trigger": "1-10",
+              "unlock": "Minimal Expedition"
+            },
+            {
+              "trigger": "1-10",
+              "unlock": "Story Hard"
+            },
+            {
+              "trigger": "Clear all stages in a chapter",
+              "unlock": "That chapter's Hard Mode"
+            },
+            {
+              "trigger": "Adventure Rank 2",
+              "unlock": "Memory and monster encyclopedias"
+            },
+            {
+              "trigger": "Adventure Rank 4",
+              "unlock": "Training quests"
+            },
+            {
+              "trigger": "Adventure Rank 7",
+              "unlock": "Job change"
+            },
+            {
+              "trigger": "Adventure Rank 8",
+              "unlock": "Vocation panels"
+            },
+            {
+              "trigger": "Adventure Rank 10",
+              "unlock": "Challenge quests"
+            }
+          ],
+          "notes": [
+            "If a player is stuck deciding between farming and pushing story, these unlocks are the reason to keep advancing.",
+            "Minimal Expedition is especially important because it starts feeding passive upgrade materials and memories."
+          ]
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Dragon Quest Smash Grow Best Memory",
-      "displayType": "achievementGrid",
-      "intro": "Memory choices scale faster when grouped by role and element focus. Use this quick matrix to prioritize slots.",
-      "groups": [
+      "eyebrow": "Memory Tier",
+      "title": "Dragon Quest Smash Grow Best Memory Tier List, Color Matching, and Early Farm Targets",
+      "subtitle": "Memory is one of the most important long-term power systems in Dragon Quest Smash Grow, so the best picks are the ones that combine strong effects, strong stat value, and clean slot fit. Color matching matters because matching a memory to the slot color boosts its stats by 1.2x.",
+      "displayType": "tierGrid",
+      "intro": "The strongest memory is not always the rarest one in a vacuum. Warrior-style setups care a lot about yellow-friendly slot value, Mage pages naturally lean into purple, and every build gets more efficient once the memory effect and slot color are both working for the same plan.",
+      "tiers": [
         {
-          "name": "Damage Core Memories",
-          "achievements": [
+          "tier": "SS",
+          "summary": "These are the premium memories that combine high stats with broad build value and stay useful deep into progression.",
+          "entries": [
             {
-              "title": "Burst Memory Set",
-              "description": "Best for boss phases where short windows decide clear speed."
+              "name": "Fire Warrior",
+              "summary": "A top-end physical memory with high stat value and direct fire physical support, making it strong even before a box is fully optimized.",
+              "best_for": "Fire physical lineups and general attacker slots",
+              "slot_tip": "Match the slot color first, then let the fire physical boost carry the rest of the value."
             },
             {
-              "title": "Crit Tempo Memory",
-              "description": "Supports fast-hit classes and improves consistent DPS output."
+              "name": "Killer Panther",
+              "summary": "One of the cleanest all-purpose memories because it brings high stats and boosts special-move gauge gain.",
+              "best_for": "General progression teams and fast special rotations",
+              "slot_tip": "This is the easiest SS memory to slot when raw value matters more than a narrow build tag."
             },
             {
-              "title": "Element Surge Memory",
-              "description": "Boosts targeted element teams when chapter enemies have known weaknesses."
+              "name": "Archfiend",
+              "summary": "A sword-build premium memory with high stats and doubled sword count, giving sword-tag runs much more upside.",
+              "best_for": "Sword-skill builds",
+              "slot_tip": "Its value spikes hardest when the run already wants sword-tag adventure skills."
+            },
+            {
+              "name": "King Slime",
+              "summary": "A premium pebble memory with high stats and doubled pebble count, making it the strongest top-end enabler for pebble packages.",
+              "best_for": "Pebble-skill builds",
+              "slot_tip": "Use it when the weapon and run path already reward pebble scaling instead of generic filler."
             }
           ]
         },
         {
-          "name": "Survival Memories",
-          "achievements": [
+          "tier": "S",
+          "summary": "These memories are strong enough to shape real builds and are often easier to use early than a narrow SS piece.",
+          "entries": [
             {
-              "title": "Guard Layer Memory",
-              "description": "Raises frontline stability in high-pressure boss mechanics."
+              "name": "Lime Slime",
+              "summary": "A standout early magic memory with strong spell-side value and a built-in Arrow Boost (Slow) starter. It is one of the most important early purple memories in the game.",
+              "best_for": "Mage and spell-first lineups",
+              "slot_tip": "Purple slots get the cleanest payoff here, which lines up naturally with Mage-style pages.",
+              "where_to_get": "Ruina Plains 1-5 and 1-6"
             },
             {
-              "title": "Recovery Pulse Memory",
-              "description": "Adds sustain value for auto loops and long co-op sessions."
+              "name": "Mini Demon",
+              "summary": "A strong low-cost attacker memory with good stats and a Sword Boost (Heal) starter that adds practical sustain.",
+              "best_for": "Physical attacker jobs",
+              "slot_tip": "A great bridge piece when you want offense and small survivability in the same slot."
             },
             {
-              "title": "Mitigation Aura Memory",
-              "description": "Reliable defensive pick when progression is blocked by incoming damage spikes."
+              "name": "Yeti",
+              "summary": "A direct sword-type damage memory that fits neatly into sword-tag loadouts without demanding a full late-game box.",
+              "best_for": "Sword-skill builds",
+              "slot_tip": "This is strongest once the weapon package is already leaning into sword tags."
+            },
+            {
+              "name": "Ice Golem",
+              "summary": "A strong magic-side option with high magic attack and light spell damage support.",
+              "best_for": "Light spell teams",
+              "slot_tip": "A clean second step after Lime Slime for players building real spell pages."
+            },
+            {
+              "name": "Blood Hand",
+              "summary": "A focused pebble damage upgrade that gives pebble-based weapons a very noticeable damage floor.",
+              "best_for": "Pebble-focused builds",
+              "slot_tip": "Use it under King Slime as the more practical build-specific upgrade."
+            },
+            {
+              "name": "Slime Knight",
+              "summary": "Its quest-start +1 Great Arrow effect gives immediate tempo and makes early projectile setups feel smoother.",
+              "best_for": "Arrow-leaning openers and faster first-room clears",
+              "slot_tip": "This is the easiest way to improve early run tempo before the box is full of premium options."
             }
           ]
         },
         {
-          "name": "Utility Memories",
-          "achievements": [
+          "tier": "Early Farm",
+          "summary": "These are the first practical memory targets to repeat while the account is still growing and story progress is still the main priority.",
+          "entries": [
             {
-              "title": "Gauge Charge Memory",
-              "description": "Improves special skill uptime and keeps rotation flow active."
+              "name": "Lime Slime",
+              "summary": "The best early Chapter 1 target because it is both useful and realistic to farm while pushing story.",
+              "best_for": "Spell-first lineups",
+              "slot_tip": "Its purple color makes it especially valuable on Mage-style slot pages.",
+              "where_to_get": "Ruina Plains 1-5 and 1-6"
             },
             {
-              "title": "Drop Boost Memory",
-              "description": "Useful in repeat farming routes where material efficiency matters."
+              "name": "Drackyma",
+              "summary": "A clean early physical filler that boosts wind physical damage and is easy to pick up before deeper farming routes open.",
+              "best_for": "Wind-leaning physical lineups",
+              "slot_tip": "Use it as an efficient bridge piece while chasing stronger long-term memory pages.",
+              "where_to_get": "Ruina Plains 1-7 and 1-9"
             },
             {
-              "title": "Co-Op Support Memory",
-              "description": "Adds team value in matchmaking where role coverage is inconsistent."
+              "name": "Stone Man",
+              "summary": "A low-cost early memory with a simple physical damage bonus that fits many early physical pages.",
+              "best_for": "Budget physical builds",
+              "slot_tip": "This is the easiest way to add a clean physical bump during late Chapter 1.",
+              "where_to_get": "Ruina Plains 1-9"
+            },
+            {
+              "name": "Smile Rock",
+              "summary": "A practical Chapter 2 target because the routes around it also overlap with other useful memory drops.",
+              "best_for": "Earth-leaning builds and efficient repeat farming",
+              "slot_tip": "Best used when you want one repeatable chapter stretch to produce multiple useful drops.",
+              "where_to_get": "Early Chapter 2 farming routes around 2-7"
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Dragon Quest Smash Grow Adventure Skills",
-      "displayType": "accordion",
-      "intro": "Adventure Skills and Blessings define build identity. These Dragon Quest Smash Grow FAQs cover practical combo logic.",
-      "faqs": [
+      "eyebrow": "Build Guide",
+      "title": "Dragon Quest Smash Grow Adventure Skills Builds, Core Picks, and Weapon Pairings",
+      "subtitle": "Blessings and Adventure Skills are the heart of the roguelite loop, so this module focuses on the strongest build directions instead of dumping a flat skill list. The current meta starts with universal normal-attack power, then branches into sword or Jibaria packages when the run gives the right tags.",
+      "displayType": "cardList",
+      "intro": "Adventure Skills appear during the run through Grow crystals and other in-run picks, so the best build is the one that converts random offers into a clean damage package. Right now the most stable route is still normal-attack scaling, while sword and Jibaria builds take over once the correct support pieces start chaining together.",
+      "items": [
         {
-          "question": "How do Dragon Quest Smash Grow Adventure Skills shape a run?",
-          "answer": "Adventure Skills decide your burst timing, sustain window, and clear speed profile, so skill routing should match your class role from the start."
+          "name": "Normal Attack Core",
+          "summary": "This is the most stable all-purpose build in the game and the best default route when a run offers mixed choices.",
+          "core_skills": [
+            "Continuous Attack",
+            "Giant Attack",
+            "Spread Attack"
+          ],
+          "best_with": [
+            "Flame Sword",
+            "Falcon Blade",
+            "Metal Slime Sword",
+            "Metal Wing",
+            "Platinum Wing",
+            "Queen's Whip",
+            "Ice Staff",
+            "Sand Spear",
+            "Crystal Claws"
+          ],
+          "when_to_pick": "Use this as the default line for story pushes, challenge farming, and any run that does not commit early to a narrower build."
         },
         {
-          "question": "What is a stable Dragon Quest Smash Grow Blessing combo for story?",
-          "answer": "A balanced combo uses one damage amplifier, one control effect, and one sustain effect so story progression stays consistent."
+          "name": "Sword Build",
+          "summary": "The cleanest build-specific damage route once sword-tag pieces start showing up and the run is clearly heading in that direction.",
+          "core_skills": [
+            "Dain Sword",
+            "Sword Secret Scroll",
+            "Sword Enhancement (Burst)",
+            "Sword Enhancement (Heal)"
+          ],
+          "best_with": [
+            "Metal Wing",
+            "Platinum Wing",
+            "Queen's Whip",
+            "Metal Slime Sword",
+            "Sand Spear"
+          ],
+          "when_to_pick": "Commit once early sword pieces appear or when the team already starts the run with sword support."
         },
         {
-          "question": "Should Dragon Quest Smash Grow players chase one build theme only?",
-          "answer": "Start with one theme for consistency, then flex one slot to answer stage mechanics or co-op team gaps."
+          "name": "Jibaria Build",
+          "summary": "A powerful mob-clearing route that fixes the screen-control problems of short-range weapons and covers dense rooms very efficiently.",
+          "core_skills": [
+            "Jibaria Spike",
+            "Spike Secret Scroll",
+            "Spike Enhancement (Slash)",
+            "Spike Enhancement (Slow)"
+          ],
+          "best_with": [
+            "Metal Slime Sword",
+            "Falcon Blade",
+            "Flame Sword",
+            "Crystal Claws"
+          ],
+          "when_to_pick": "Use this when the account is leaning on short-range weapons and needs safer room control."
         },
         {
-          "question": "Which Dragon Quest Smash Grow classes gain the most from skill chaining?",
-          "answer": "Thief and Mage usually gain the highest immediate value because their kits convert tempo effects into clear speed quickly."
+          "name": "Early Bagi Ball Opener",
+          "summary": "This is one of the strongest early stabilizers because it adds rotating wind damage around the character and scales quickly.",
+          "core_skills": [
+            "Bagi Ball"
+          ],
+          "best_with": [
+            "Early story runs",
+            "Close-range weapons",
+            "Mixed low-rarity lineups"
+          ],
+          "when_to_pick": "Grab it early when the normal-attack package is still incomplete and the run needs easier room control."
         },
         {
-          "question": "When should Dragon Quest Smash Grow players reroute a skill path?",
-          "answer": "Reroute when boss mechanics or stage modifiers block your current build efficiency for multiple attempts."
+          "name": "Emergency Utility Package",
+          "summary": "Not every run needs more damage. These utility cards are the clean fix when the party is losing on sustain or special timing.",
+          "core_skills": [
+            "Medicinal Herb Set",
+            "Miracle Drop",
+            "Yggdrasil Leaf"
+          ],
+          "best_with": [
+            "Boss attempts",
+            "Auto runs",
+            "Low-sustain teams"
+          ],
+          "when_to_pick": "Take utility after the run already has enough damage but is still failing on survival, recovery, or special-gauge timing."
         }
       ]
     },
