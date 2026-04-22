@@ -322,149 +322,199 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
+      "eyebrow": "Launch Gacha",
       "title": "Dragon Quest Smash Grow Retry Gacha",
-      "displayType": "cards",
-      "intro": "Retry Gacha is your guaranteed correction layer after reroll. Use it to secure a second core weapon and stabilize progression.",
-      "cards": [
+      "subtitle": "Use the retry ticket to patch the gap left after reroll. Ice Staff is the safest all-purpose prize, while Fire Sword and Crystal Claws are the main boss-focused alternatives.",
+      "displayType": "table",
+      "intro": "The retry gacha is a launch-only account fixer, not a replacement for reroll. The strongest route is to finish reroll first, secure launch-limited standouts such as Metal Slime Sword or Metal Wing Boomerang, and then use the retry ticket for the weapon role your account still lacks.",
+      "items": [
         {
-          "name": "Trigger redraw immediately after keep",
-          "description": "Once reroll meets your keep line, run guaranteed redraw before spending scattered tickets elsewhere."
+          "entry": "Ice Staff",
+          "category": "Weapon Pick",
+          "verdict": "Best overall",
+          "details": "The top retry target. It gives safe ranged damage, strong control, and enough stability to stay useful from early story pushing to harder no-death style missions."
         },
         {
-          "name": "Shiverstick as universal first pick",
-          "description": "Shiverstick is the safest broad-use option for story clears, freeze control, and early auto comfort."
+          "entry": "Fire Sword",
+          "category": "Weapon Pick",
+          "verdict": "Best single-target sword",
+          "details": "The main runner-up if your reroll already covered crowd clearing. It is favored for boss fights and cleaner single-target pressure."
         },
         {
-          "name": "Fallback redraw priorities",
-          "description": "Fire Blade, Falcon Blade, Sandstorm Spear, Crystal Claws, Platinum Plumes, and Queen's Whip are all workable launch finishes."
+          "entry": "Crystal Claws",
+          "category": "Weapon Pick",
+          "verdict": "Best close-range alternative",
+          "details": "A fast, high single-target option that works well when your reroll already gave you safer range or AoE. It is one of the two main second-place picks alongside Fire Sword."
         },
         {
-          "name": "Stop when account has two core 3-stars",
-          "description": "A Metal-series keep plus one solid redraw result gives enough stability to start efficient progression."
+          "entry": "Reroll first, retry second",
+          "category": "Usage Rule",
+          "verdict": "Recommended order",
+          "details": "Chase launch-limited prizes such as Metal Slime Sword or Metal Wing Boomerang in reroll first, then spend the retry ticket on the missing role. Taking a new 3-star weapon is generally better than forcing a duplicate."
+        },
+        {
+          "entry": "Two retry tickets total",
+          "category": "Ticket Source",
+          "verdict": "How you unlock them",
+          "details": "One ticket is awarded right after the tutorial. The second ticket comes from clearing panel mission page 2, so it arrives later than the first one."
+        },
+        {
+          "entry": "Seven 3-star weapons, equal rates",
+          "category": "Pool Rule",
+          "verdict": "Know before locking in",
+          "details": "The retry pool contains only seven premium 3-star weapons at roughly 14.28571% each and no armor. You can keep rerolling until the exact role you want appears, but once you confirm a result you cannot roll it back."
         }
-      ],
-      "highlights": [
-        "Secure one universal weapon first",
-        "Avoid over-resetting after a qualified redraw result",
-        "Sync redraw choice with your intended main class",
-        "Lock account and move into story progression"
       ]
     },
     "lucidBlocksWorldRegions": {
+      "eyebrow": "Banner Priority",
       "title": "Dragon Quest Smash Grow Gacha Guide",
-      "displayType": "regionCards",
-      "intro": "Use a clear pull plan: focus value banners, protect gem reserves, and map free tickets to your build goals.",
-      "regions": [
+      "subtitle": "The Metal banner is the launch-era priority because it adds Metal Slime Sword and Metal Wing Boomerang on top of the normal premium pool. Free players should also clear every guaranteed or ad-based pull before spending gems elsewhere.",
+      "displayType": "table",
+      "intro": "Right now the cleanest spending plan is simple: target the Metal Equipment banner first, use the retryable guaranteed 3-star ticket to fill a missing role, and never skip the daily ad pull. For gem spending, pickup pity sits at 200 pulls and planned 10-pulls are better than random singles.",
+      "items": [
         {
-          "name": "Launch Featured Banner",
-          "type": "High Priority",
-          "description": "Primary target for Metal-series opener value and early account acceleration."
+          "entry": "Metal Equipment Transmuter",
+          "priority": "S",
+          "bestFor": "Main gem target",
+          "details": "The strongest launch banner. Its featured lineup includes Metal Slime Sword and Metal Wing Boomerang, weapons gain +20 damage against metal enemies, and the armor pieces carry all-element resistance.",
+          "pullRule": "Make this your first stop for gems and exchange tickets."
         },
         {
-          "name": "Guaranteed Redraw Banner",
-          "type": "Core Safety Layer",
-          "description": "Use after reroll keep confirmation to secure a second functional 3-star weapon."
+          "entry": "Guaranteed 3-star Weapon Retry Gacha",
+          "priority": "S",
+          "bestFor": "Free early power",
+          "details": "A guaranteed 3-star weapon banner that can be rerolled over and over until you lock in the result. It is one of the highest-value free power spikes at launch.",
+          "pullRule": "Use it as soon as you know which role your roster still needs."
         },
         {
-          "name": "Ticket Pull Allocation",
-          "type": "Resource Routing",
-          "description": "Spend event and starter tickets in batches that match your active role plan instead of random split pulls."
+          "entry": "Another World Info (CM) Gacha",
+          "priority": "S",
+          "bestFor": "Daily free value",
+          "details": "A standard banner with one free ad pull per day and a chance to drop 3-star gear. It is easy long-term value and should not be skipped.",
+          "pullRule": "Always take the daily free pull before spending gems."
         },
         {
-          "name": "Gem Reserve Policy",
-          "type": "Long-Term Value",
-          "description": "Hold a reserve for upcoming banner cycles so your account can react to stronger limited releases."
+          "entry": "Paid 10-Pull Premium Equipment Gacha",
+          "priority": "A",
+          "bestFor": "Light spenders",
+          "details": "A paid-only 10-pull that guarantees one 3-star weapon. It is solid if you are spending, but it still trails the Metal banner for pure launch value.",
+          "pullRule": "Reasonable for spenders after the Metal banner is covered."
         },
         {
-          "name": "Duplicate Handling",
-          "type": "Power Conversion",
-          "description": "Treat duplicates as progression material for core weapons, not as reasons to force a full strategy reset."
+          "entry": "Premium Equipment Gacha",
+          "priority": "B",
+          "bestFor": "Leftover free vouchers",
+          "details": "Usable, but weaker than the current pickup value. Treat it as a free-pull sink instead of a primary gem target.",
+          "pullRule": "Use free pulls only; do not make it your main banner."
         },
         {
-          "name": "Low-Spend Pull Rhythm",
-          "type": "Budget Path",
-          "description": "Combine daily gems, events, and guaranteed value banners for steady growth without over-chasing."
+          "entry": "Pickup pity and pull format",
+          "priority": "System",
+          "bestFor": "Budget planning",
+          "details": "Pickup weapons have a 200-pull pity, and planned 10-pulls are favored over scattering singles. This matters most if you are saving for a focused banner instead of spending casually.",
+          "pullRule": "Save deep pulls for a banner you actually want to finish."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
+      "eyebrow": "Team Builds",
       "title": "Dragon Quest Smash Grow Best Party",
-      "displayType": "creatureCards",
-      "intro": "Use preset team templates by scenario so your damage profile and utility stay consistent across story, farm, and co-op.",
-      "creatures": [
+      "subtitle": "The strongest early launch teams split into two clear lanes: a safe Mage-led general farming build and a Thief-led metal farming build. For harder content, stability comes from one anchor weapon, one Warrior slot, and flexible support weapons with strong start-of-run skills.",
+      "displayType": "cardList",
+      "intro": "This game is easier to build around weapons than around jobs in the abstract. The best practice is to choose one anchor weapon-class pair first, then fill the other two slots with roles that add strong Adventure Skills, cover weak matchups, and keep your runs stable in auto or manual play.",
+      "items": [
         {
-          "name": "Story Progress Team",
-          "role": "Balanced Core",
-          "description": "Thief + Mage + Warrior gives stable ranged pressure, AoE control, and frontline durability."
+          "title": "Auto General Farming Party",
+          "tag": "General PvE",
+          "party": [
+            "Main: Mage + Ice Staff",
+            "Sub 1: Warrior + Fire Sword",
+            "Sub 2: Thief + Crystal Claws"
+          ],
+          "bestFor": "Story pushing, general quest farming, and safe auto play.",
+          "notes": [
+            "Built around Ice Staff range and control.",
+            "Fire Sword and Crystal Claws add strong start-of-run skill support.",
+            "This setup works as a standard all-purpose farming baseline."
+          ]
         },
         {
-          "name": "Metal Farming Team",
-          "role": "Fast Cycle",
-          "description": "Thief with Metal Wing Boomerang plus support slots prioritizes quick clear speed and reset pacing."
+          "title": "Metal Farming Party",
+          "tag": "EXP Grind",
+          "party": [
+            "Main: Thief + Metal Wing Boomerang",
+            "Sub 1: Mage + Ice Staff",
+            "Sub 2: Martial Artist + Crystal Claws"
+          ],
+          "bestFor": "Metal enemy hunting and faster early experience farming.",
+          "notes": [
+            "Metal Wing Boomerang is the core anti-metal weapon for this build.",
+            "Ice Staff and Crystal Claws work as flexible side slots around the metal core.",
+            "Metal Slime Sword is a valid melee main alternative if you prefer a closer-range route."
+          ]
         },
         {
-          "name": "Boss Burst Team",
-          "role": "Single-Target Focus",
-          "description": "Warrior or Martial Artist front with Fire Blade and Crystal Claws builds high short-window damage."
-        },
-        {
-          "name": "Safe Auto Team",
-          "role": "Consistency",
-          "description": "Mage + Priest backbone with freeze and healing keeps auto runs stable over long sessions."
-        },
-        {
-          "name": "Co-Op Utility Team",
-          "role": "Party Support",
-          "description": "Run one control weapon, one burst slot, and one sustain slot to cover mixed matchmaking groups."
-        },
-        {
-          "name": "Starter Budget Team",
-          "role": "Early Access",
-          "description": "Any one strong 3-star carry plus two role-complement picks outperforms scattered off-plan upgrades."
+          "title": "Hard-Stage Stability Core",
+          "tag": "Manual / High Difficulty",
+          "party": [
+            "Anchor 1: Pick one main weapon-class pair first.",
+            "Anchor 2: Choose sub slots by their start-of-run Adventure Skills.",
+            "Anchor 3: Keep one Warrior in the roster for Big Shield damage reduction.",
+            "Anchor 4: Reclass the early Priest into Thief once job change opens if you need more offense."
+          ],
+          "bestFor": "Gauntlet, Shrines, and harder manual fights where consistency matters more than raw speed.",
+          "notes": [
+            "Job change unlocks at Adventure Rank 7.",
+            "Job skill panel progress starts at Adventure Rank 8.",
+            "Launch-era advice favors wider damage coverage over forcing a healer slot."
+          ]
         }
       ]
     },
     "lucidBlocksMobilityGear": {
+      "eyebrow": "Launch Timeline",
       "title": "Dragon Quest Smash Grow Release Date",
-      "displayType": "itemCards",
-      "intro": "Dragon Quest Smash/Grow completed its launch window and is now live across major mobile platforms.",
+      "subtitle": "Dragon Quest Smash/Grow has already launched on iOS and Android as a free-to-play roguelite RPG. The most useful timeline points are the closed beta window, launch-date confirmation, pre-download start, service launch, and the two separate reward deadlines players can still track.",
+      "displayType": "timelineCards",
+      "intro": "This module is built for latecomers who want the launch story in one scan. It covers when testing happened, when the release date was locked in, when pre-download started, when service opened, and how long the launch gifts and event rewards remain active.",
       "items": [
         {
-          "name": "Official Global Launch",
-          "type": "Launch Date",
-          "description": "Dragon Quest Smash/Grow officially launched on April 21, 2026."
+          "date": "2025-09-17 to 2025-10-21",
+          "label": "Closed Beta",
+          "title": "The global CBT cycle was scheduled",
+          "description": "Closed beta applications opened on September 17, 2025, ran through October 2, and the test period was planned for October 14 to October 21 with a 30,000-player cap."
         },
         {
-          "name": "iOS Availability",
-          "type": "App Store",
-          "description": "The game is live on the Apple App Store with free-to-play access."
+          "date": "2026-04-15",
+          "label": "Release Date",
+          "title": "Launch was locked for April 21, 2026",
+          "description": "KLab and Square Enix formally confirmed the launch date for Tuesday, April 21, 2026 UTC and pointed players to the official stores and channels for final launch prep."
         },
         {
-          "name": "Android Availability",
-          "type": "Google Play",
-          "description": "The game is live on Google Play with ongoing event updates."
+          "date": "2026-04-20",
+          "label": "Pre-download",
+          "title": "Pre-download started one day before launch",
+          "description": "Players could install the app on iOS and Android ahead of service start. At that point the service date was already fixed for April 21."
         },
         {
-          "name": "Supported Languages",
-          "type": "Live Service Info",
-          "description": "Current official language support includes Japanese, English, Traditional Chinese, and Korean."
+          "date": "2026-04-21",
+          "label": "Launch",
+          "title": "Official service began",
+          "description": "DRAGON QUEST Smash/Grow launched worldwide on iOS and Android as a free-to-play roguelite RPG with in-app purchases."
         },
         {
-          "name": "Co-Op Structure",
-          "type": "Core Feature",
-          "description": "Launch version supports up to four-player co-op progression and quest play."
+          "date": "2026-05-05 11:59 JST",
+          "label": "Event Deadline",
+          "title": "The first release-event window ends",
+          "description": "The launch login bonus worth up to 1,000 Gems and the release medal event both run through May 5, 2026 at 11:59 JST."
         },
         {
-          "name": "Install Footprint",
-          "type": "Mobile Setup",
-          "description": "App size is approximately 1.4 GB, so allocate storage before event-heavy sessions."
+          "date": "2026-10-18 23:59 JST",
+          "label": "Gift Deadline",
+          "title": "The early-start 10-pull gift expires",
+          "description": "Players who start early can still claim 10 premium equipment vouchers through October 18, 2026. Tutorial completion also unlocks a retryable guaranteed 3-star weapon ticket for account setup."
         }
-      ],
-      "unlockMilestones": [
-        "Official launch date confirmed: 2026-04-21",
-        "App Store and Google Play links live",
-        "Four-player co-op available at launch",
-        "Launch rewards distributed through early events"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
