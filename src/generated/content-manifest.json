@@ -1,0 +1,776 @@
+{
+  "en": {
+    "beta": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beta-test",
+        "file": "Dragon-Quest-Smash-Grow-beta-test"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-closed-beta",
+        "file": "Dragon-Quest-Smash-Grow-closed-beta"
+      }
+    ],
+    "community": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-discord",
+        "file": "Dragon-Quest-Smash-Grow-discord"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reddit"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reroll-reddit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-guide",
+        "file": "Dragon-Quest-Smash-Grow-beginner-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-tips",
+        "file": "Dragon-Quest-Smash-Grow-beginner-tips"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-class",
+        "file": "Dragon-Quest-Smash-Grow-best-class"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-character-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-character-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-class-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-class-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-daily-missions",
+        "file": "Dragon-Quest-Smash-Grow-daily-missions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gacha",
+        "file": "Dragon-Quest-Smash-Grow-gacha"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-guide",
+        "file": "Dragon-Quest-Smash-Grow-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-lime-slime",
+        "file": "Dragon-Quest-Smash-Grow-lime-slime"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-multiplayer",
+        "file": "Dragon-Quest-Smash-Grow-multiplayer"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-party-setup",
+        "file": "Dragon-Quest-Smash-Grow-party-setup"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-stamina-guide",
+        "file": "Dragon-Quest-Smash-Grow-stamina-guide"
+      },
+      {
+        "slug": "dq-smash-grow-guide",
+        "file": "dq-smash-grow-guide"
+      },
+      {
+        "slug": "dqsg-guide",
+        "file": "dqsg-guide"
+      },
+      {
+        "slug": "dqsg-reroll-guide",
+        "file": "dqsg-reroll-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-tips",
+        "file": "dragon-quest-smash-grow-tips"
+      }
+    ],
+    "install": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-bluestacks",
+        "file": "Dragon-Quest-Smash-Grow-bluestacks"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-download-guide",
+        "file": "Dragon-Quest-Smash-Grow-download-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-mobile-game",
+        "file": "Dragon-Quest-Smash-Grow-mobile-game"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-mod",
+        "file": "dragon-quest-smash-grow-mod"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-global-release",
+        "file": "Dragon-Quest-Smash-Grow-global-release"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-launch-countdown",
+        "file": "Dragon-Quest-Smash-Grow-launch-countdown"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-maintenance-schedule",
+        "file": "Dragon-Quest-Smash-Grow-maintenance-schedule"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release-date",
+        "file": "Dragon-Quest-Smash-Grow-release-date"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release",
+        "file": "Dragon-Quest-Smash-Grow-release"
+      },
+      {
+        "slug": "dqsg-code",
+        "file": "dqsg-code"
+      },
+      {
+        "slug": "dqsg-tier",
+        "file": "dqsg-tier"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-team",
+        "file": "dragon-quest-smash-grow-best-team"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-vocation",
+        "file": "dragon-quest-smash-grow-best-vocation"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-codes",
+        "file": "dragon-quest-smash-grow-codes"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-profile-card",
+        "file": "dragon-quest-smash-grow-profile-card"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-slow",
+        "file": "dragon-quest-smash-grow-slow"
+      },
+      {
+        "slug": "smash-grow-tier-list",
+        "file": "smash-grow-tier-list"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-reroll-targets",
+        "file": "Dragon-Quest-Smash-Grow-best-reroll-targets"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-infinite-reroll",
+        "file": "Dragon-Quest-Smash-Grow-infinite-reroll"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-guide",
+        "file": "Dragon-Quest-Smash-Grow-reroll-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-reroll-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-weapon",
+        "file": "Dragon-Quest-Smash-Grow-reroll-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll",
+        "file": "Dragon-Quest-Smash-Grow-reroll"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-first-impressions",
+        "file": "Dragon-Quest-Smash-Grow-first-impressions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis",
+        "file": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay",
+        "file": "Dragon-Quest-Smash-Grow-gameplay"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-review",
+        "file": "Dragon-Quest-Smash-Grow-review"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-armor-guide",
+        "file": "Dragon-Quest-Smash-Grow-armor-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-equipment",
+        "file": "Dragon-Quest-Smash-Grow-best-equipment"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-weapon",
+        "file": "Dragon-Quest-Smash-Grow-best-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-falcon-blade",
+        "file": "Dragon-Quest-Smash-Grow-falcon-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-fire-blade",
+        "file": "Dragon-Quest-Smash-Grow-fire-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-platinum-plumes",
+        "file": "Dragon-Quest-Smash-Grow-platinum-plumes"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-strongest-weapon",
+        "file": "Dragon-Quest-Smash-Grow-strongest-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide",
+        "file": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-3-star-weapon",
+        "file": "dragon-quest-smash-grow-best-3-star-weapon"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon-tier-list",
+        "file": "dragon-quest-smash-grow-weapon-tier-list"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon",
+        "file": "dragon-quest-smash-grow-weapon"
+      }
+    ]
+  },
+  "ja": {
+    "beta": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beta-test",
+        "file": "Dragon-Quest-Smash-Grow-beta-test"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-closed-beta",
+        "file": "Dragon-Quest-Smash-Grow-closed-beta"
+      }
+    ],
+    "community": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-discord",
+        "file": "Dragon-Quest-Smash-Grow-discord"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reddit"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reroll-reddit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-guide",
+        "file": "Dragon-Quest-Smash-Grow-beginner-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-tips",
+        "file": "Dragon-Quest-Smash-Grow-beginner-tips"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-class",
+        "file": "Dragon-Quest-Smash-Grow-best-class"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-character-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-character-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-class-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-class-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-daily-missions",
+        "file": "Dragon-Quest-Smash-Grow-daily-missions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gacha",
+        "file": "Dragon-Quest-Smash-Grow-gacha"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-guide",
+        "file": "Dragon-Quest-Smash-Grow-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-lime-slime",
+        "file": "Dragon-Quest-Smash-Grow-lime-slime"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-multiplayer",
+        "file": "Dragon-Quest-Smash-Grow-multiplayer"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-party-setup",
+        "file": "Dragon-Quest-Smash-Grow-party-setup"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-stamina-guide",
+        "file": "Dragon-Quest-Smash-Grow-stamina-guide"
+      },
+      {
+        "slug": "dq-smash-grow-guide",
+        "file": "dq-smash-grow-guide"
+      },
+      {
+        "slug": "dqsg-guide",
+        "file": "dqsg-guide"
+      },
+      {
+        "slug": "dqsg-reroll-guide",
+        "file": "dqsg-reroll-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-tips",
+        "file": "dragon-quest-smash-grow-tips"
+      }
+    ],
+    "install": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-bluestacks",
+        "file": "Dragon-Quest-Smash-Grow-bluestacks"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-download-guide",
+        "file": "Dragon-Quest-Smash-Grow-download-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-mobile-game",
+        "file": "Dragon-Quest-Smash-Grow-mobile-game"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-mod",
+        "file": "dragon-quest-smash-grow-mod"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-global-release",
+        "file": "Dragon-Quest-Smash-Grow-global-release"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-launch-countdown",
+        "file": "Dragon-Quest-Smash-Grow-launch-countdown"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-maintenance-schedule",
+        "file": "Dragon-Quest-Smash-Grow-maintenance-schedule"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release-date",
+        "file": "Dragon-Quest-Smash-Grow-release-date"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release",
+        "file": "Dragon-Quest-Smash-Grow-release"
+      },
+      {
+        "slug": "dqsg-code",
+        "file": "dqsg-code"
+      },
+      {
+        "slug": "dqsg-tier",
+        "file": "dqsg-tier"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-team",
+        "file": "dragon-quest-smash-grow-best-team"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-vocation",
+        "file": "dragon-quest-smash-grow-best-vocation"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-codes",
+        "file": "dragon-quest-smash-grow-codes"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-profile-card",
+        "file": "dragon-quest-smash-grow-profile-card"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-slow",
+        "file": "dragon-quest-smash-grow-slow"
+      },
+      {
+        "slug": "smash-grow-tier-list",
+        "file": "smash-grow-tier-list"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-reroll-targets",
+        "file": "Dragon-Quest-Smash-Grow-best-reroll-targets"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-infinite-reroll",
+        "file": "Dragon-Quest-Smash-Grow-infinite-reroll"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-guide",
+        "file": "Dragon-Quest-Smash-Grow-reroll-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-reroll-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-weapon",
+        "file": "Dragon-Quest-Smash-Grow-reroll-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll",
+        "file": "Dragon-Quest-Smash-Grow-reroll"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-first-impressions",
+        "file": "Dragon-Quest-Smash-Grow-first-impressions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis",
+        "file": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay",
+        "file": "Dragon-Quest-Smash-Grow-gameplay"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-review",
+        "file": "Dragon-Quest-Smash-Grow-review"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-armor-guide",
+        "file": "Dragon-Quest-Smash-Grow-armor-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-equipment",
+        "file": "Dragon-Quest-Smash-Grow-best-equipment"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-weapon",
+        "file": "Dragon-Quest-Smash-Grow-best-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-falcon-blade",
+        "file": "Dragon-Quest-Smash-Grow-falcon-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-fire-blade",
+        "file": "Dragon-Quest-Smash-Grow-fire-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-platinum-plumes",
+        "file": "Dragon-Quest-Smash-Grow-platinum-plumes"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-strongest-weapon",
+        "file": "Dragon-Quest-Smash-Grow-strongest-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide",
+        "file": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-3-star-weapon",
+        "file": "dragon-quest-smash-grow-best-3-star-weapon"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon-tier-list",
+        "file": "dragon-quest-smash-grow-weapon-tier-list"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon",
+        "file": "dragon-quest-smash-grow-weapon"
+      }
+    ]
+  },
+  "ko": {
+    "beta": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beta-test",
+        "file": "Dragon-Quest-Smash-Grow-beta-test"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-closed-beta",
+        "file": "Dragon-Quest-Smash-Grow-closed-beta"
+      }
+    ],
+    "community": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-discord",
+        "file": "Dragon-Quest-Smash-Grow-discord"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reddit"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-reddit",
+        "file": "Dragon-Quest-Smash-Grow-reroll-reddit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-guide",
+        "file": "Dragon-Quest-Smash-Grow-beginner-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-beginner-tips",
+        "file": "Dragon-Quest-Smash-Grow-beginner-tips"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-class",
+        "file": "Dragon-Quest-Smash-Grow-best-class"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-character-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-character-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-class-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-class-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-daily-missions",
+        "file": "Dragon-Quest-Smash-Grow-daily-missions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gacha",
+        "file": "Dragon-Quest-Smash-Grow-gacha"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-guide",
+        "file": "Dragon-Quest-Smash-Grow-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-lime-slime",
+        "file": "Dragon-Quest-Smash-Grow-lime-slime"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-multiplayer",
+        "file": "Dragon-Quest-Smash-Grow-multiplayer"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-party-setup",
+        "file": "Dragon-Quest-Smash-Grow-party-setup"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-stamina-guide",
+        "file": "Dragon-Quest-Smash-Grow-stamina-guide"
+      },
+      {
+        "slug": "dq-smash-grow-guide",
+        "file": "dq-smash-grow-guide"
+      },
+      {
+        "slug": "dqsg-guide",
+        "file": "dqsg-guide"
+      },
+      {
+        "slug": "dqsg-reroll-guide",
+        "file": "dqsg-reroll-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-tips",
+        "file": "dragon-quest-smash-grow-tips"
+      }
+    ],
+    "install": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-bluestacks",
+        "file": "Dragon-Quest-Smash-Grow-bluestacks"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-download-guide",
+        "file": "Dragon-Quest-Smash-Grow-download-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-mobile-game",
+        "file": "Dragon-Quest-Smash-Grow-mobile-game"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-mod",
+        "file": "dragon-quest-smash-grow-mod"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-global-release",
+        "file": "Dragon-Quest-Smash-Grow-global-release"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-launch-countdown",
+        "file": "Dragon-Quest-Smash-Grow-launch-countdown"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-maintenance-schedule",
+        "file": "Dragon-Quest-Smash-Grow-maintenance-schedule"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release-date",
+        "file": "Dragon-Quest-Smash-Grow-release-date"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-release",
+        "file": "Dragon-Quest-Smash-Grow-release"
+      },
+      {
+        "slug": "dqsg-code",
+        "file": "dqsg-code"
+      },
+      {
+        "slug": "dqsg-tier",
+        "file": "dqsg-tier"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-team",
+        "file": "dragon-quest-smash-grow-best-team"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-vocation",
+        "file": "dragon-quest-smash-grow-best-vocation"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-codes",
+        "file": "dragon-quest-smash-grow-codes"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-profile-card",
+        "file": "dragon-quest-smash-grow-profile-card"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-slow",
+        "file": "dragon-quest-smash-grow-slow"
+      },
+      {
+        "slug": "smash-grow-tier-list",
+        "file": "smash-grow-tier-list"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-reroll-targets",
+        "file": "Dragon-Quest-Smash-Grow-best-reroll-targets"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-infinite-reroll",
+        "file": "Dragon-Quest-Smash-Grow-infinite-reroll"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-guide",
+        "file": "Dragon-Quest-Smash-Grow-reroll-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-reroll-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll-weapon",
+        "file": "Dragon-Quest-Smash-Grow-reroll-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-reroll",
+        "file": "Dragon-Quest-Smash-Grow-reroll"
+      }
+    ],
+    "videos": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-first-impressions",
+        "file": "Dragon-Quest-Smash-Grow-first-impressions"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis",
+        "file": "Dragon-Quest-Smash-Grow-gameplay-trailer-analysis"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-gameplay",
+        "file": "Dragon-Quest-Smash-Grow-gameplay"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-review",
+        "file": "Dragon-Quest-Smash-Grow-review"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Dragon-Quest-Smash-Grow-armor-guide",
+        "file": "Dragon-Quest-Smash-Grow-armor-guide"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-equipment",
+        "file": "Dragon-Quest-Smash-Grow-best-equipment"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-best-weapon",
+        "file": "Dragon-Quest-Smash-Grow-best-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-falcon-blade",
+        "file": "Dragon-Quest-Smash-Grow-falcon-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-fire-blade",
+        "file": "Dragon-Quest-Smash-Grow-fire-blade"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-platinum-plumes",
+        "file": "Dragon-Quest-Smash-Grow-platinum-plumes"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-strongest-weapon",
+        "file": "Dragon-Quest-Smash-Grow-strongest-weapon"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-tier-list",
+        "file": "Dragon-Quest-Smash-Grow-tier-list"
+      },
+      {
+        "slug": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide",
+        "file": "Dragon-Quest-Smash-Grow-weapon-upgrade-guide"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-best-3-star-weapon",
+        "file": "dragon-quest-smash-grow-best-3-star-weapon"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon-tier-list",
+        "file": "dragon-quest-smash-grow-weapon-tier-list"
+      },
+      {
+        "slug": "dragon-quest-smash-grow-weapon",
+        "file": "dragon-quest-smash-grow-weapon"
+      }
+    ]
+  }
+}
